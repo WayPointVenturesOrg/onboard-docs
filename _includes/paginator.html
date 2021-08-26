@@ -1,0 +1,13 @@
+<hr>
+<div class="paginator">
+    <p>
+        {% if page.previous.url %}
+        <a class="btn btn-primary" href="{{site.baseurl}}{{ page.previous.url }}" role="button">&#8672;&nbsp;{{page.previous.title}}</a>
+        {% endif %}
+    </p>
+    <p>
+        {% if page.next.url %}
+        <a class="btn btn-primary" href="{{site.baseurl}}{{ page.next.url }}" role="button">{{page.next.title}}&nbsp;&#8674;</a>
+        {% endif %}
+    </p>
+</div>

@@ -1,0 +1,11 @@
+<div id="video_embed">
+    {% if page.video_url != "none" %}
+    <h2>Video</h2>
+    <p>The following video covers the contents of this guide. Watch the video (optional), read this guide or both. If you cannot access the video, contact your project manager.</p>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="{{ page.video_url }}?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    {% else %}
+        <p></p>
+    {% endif %}
+</div>
