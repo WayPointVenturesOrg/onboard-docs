@@ -229,7 +229,7 @@ Once all units of a module have an Acrolinx score of 80 or higher and pass all b
 1. The PjM adds “#sign-off” to the comments in the pull request.
 2. The pull request gets assigned to the appropriate Microsoft reviewer.
 
-![PUll request with project manager's comments.](../assets/images/02-projects/pull-request-pjm-comments.png)
+![Pull request with project manager's comments.](../../assets/images/02-projects/pull-request-pjm-comments.png)
 
 3. The Microsoft Reviewer responds with feedback in comments.
 
