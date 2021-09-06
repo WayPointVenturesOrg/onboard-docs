@@ -11,8 +11,6 @@ position-in-category: 2
 video_url: "none"
 ---
 
-# Content-development tools
-
 To author or edit a course, SME Writers (SMEs), Instructional Designers (IDs), Microlearning Specialists (MLS), and others who write or edit content need to install and use several specific tools.
 
 ## Required tools

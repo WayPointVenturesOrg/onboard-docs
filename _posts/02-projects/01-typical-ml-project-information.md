@@ -11,8 +11,6 @@ position-in-category: 1
 video_url: "none"
 ---
 
-# Typical microlearning project information
-
 The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” projects.
 
 ## Project duration
