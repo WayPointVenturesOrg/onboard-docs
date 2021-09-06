@@ -35,7 +35,7 @@ We recommend that you use:
 
 For many Waypoint projects, you’ll receive Microsoft corporate network (Corpnet) credentials. This is a Microsoft email address and password. We refer to these credentials as a *vdash* because the first two characters in the email address are a *v* and a dash (*-*), such as [v-johndoe@microsoft.com](mailto:v-johndoe@microsoft.com). The “v” signifies that you’re a Microsoft vendor. 
 
-You’ll use your Corpnet credentials to access restricted Microsoft resources. You can also use your Corpnet credentials and Azure Virtual Desktop (called Remote Desktop on your computer) to access a complete Office 365 environment, including Outlook, Teams, and Microsoft Office. Learn more about [Getting and using your Microsoft Corpnet credentials](https://waypointventures.sharepoint.com/:w:/r/sites/Home/_layouts/15/Doc.aspx?sourcedoc={6CC69912-B551-43CD-B842-2A09295BA592}&file=Getting and using your Microsoft Corpnet credentials.docx&action=default&mobileredirect=true). 
+You’ll use your Corpnet credentials to access restricted Microsoft resources. You can also use your Corpnet credentials and Azure Virtual Desktop (called Remote Desktop on your computer) to access a complete Office 365 environment, including Outlook, Teams, and Microsoft Office. Learn more about [Getting and using your Microsoft Corpnet credentials](https://waypointventures.sharepoint.com/:w:/r/sites/Home/_layouts/15/doc2.aspx?sourcedoc=%7B6CC69912-B551-43CD-B842-2A09295BA592%7D&file=Getting%20and%20using%20your%20Microsoft%20Corpnet%20credentials.docx&action=default&mobileredirect=true&cid=12c0dcbc-be09-40a4-a5ab-0e5a387c0065). 
 
 ## Information management
 
