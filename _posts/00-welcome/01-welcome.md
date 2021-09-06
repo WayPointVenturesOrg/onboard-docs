@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Welcome to Waypoint
-description:  A welcome/ landing webpage for the WayPoint Ventures onboarding documentation website
+subtitle:
+description: Welcome to Waypoint
 author: kcarlson
 date: 6 Sept 2021
-post-number: 1.1
-category: welcome-category
+post-number: 0.1
+category: 00-welcome
 position-in-category: 1
 video_url: "none"
 ---
-
 # Welcome to Waypoint
 
 Welcome to Waypoint Ventures! We’re glad you’ve joined our team. 
@@ -23,7 +23,7 @@ We’ve found that people who fill Subject-Matter Expert (SME) Writer and Microl
 
 Waypoint has guidelines to help you decide how best to communicate about project matters and milestones. 
 
-We recommend that you use: 
+We recommend that you use:
 
 - Email (the newest version of [Outlook)](https://support.microsoft.com/en-us/office/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) for communications of record, such as assignments, [hand-offs](https://waypointventures.sharepoint.com/:p:/r/sites/Home/Waypoint Documents/Waypoint Hand-off Foundations.pptx?d=w780b3b7367794d8ea5060ba3b1372de5&csf=1&web=1&e=yAhZGW), sign-offs, and similar communication. Email is the most reliable communication method for threads and information that we want to retain within a project record. 
 - A [Microsoft Teams](https://support.microsoft.com/en-us/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us) chat for quick conversations with another team member or two. Do you need a question answered or a point clarified? A Teams chat message is essentially an instant message (IM) that’s useful for information conversations. 
@@ -37,7 +37,7 @@ We recommend that you use:
 >[!Note]
 >Create all meetings in Outlook, and use the [Scheduling Assistant](https://support.microsoft.com/en-us/office/use-the-scheduling-assistant-and-room-finder-for-meetings-in-outlook-2e00ac07-cef1-47c8-9b99-77372434d3fa) and other Outlook tools to ensure those people who need to be at your meeting are available. Be sure to select the Teams Meeting button on the ribbon. It generates a Teams meeting link that appears in the meeting-invite email, so you and other participants can select it and join the meeting in Teams. 
 
-### Microsoft Corpnet credentials 
+### Microsoft Corpnet credentials
 
 For many Waypoint projects, you’ll receive Microsoft corporate network (Corpnet) credentials. This is a Microsoft email address and password. We refer to these credentials as a *vdash* because the first two characters in the email address are a *v* and a dash (*-*), such as [v-johndoe@microsoft.com](mailto:v-johndoe@microsoft.com). The “v” signifies that you’re a Microsoft vendor. 
 
