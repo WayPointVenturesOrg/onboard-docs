@@ -1,37 +1,56 @@
 ---
 layout: page
-title: Example guide
+title: Welcome to Waypoint
 subtitle:
-description: An example of a guide
-author: mkavana
-date: 26 Aug 2021
+description: Welcome to Waypoint
+author: kcarlson
+date: 6 Sept 2021
 post-number: 1.1
-category: this-category
+category: welcome-category
 position-in-category: 1
 video_url: "none"
 ---
 
-An example of a guide.
+# Welcome to Waypoint
 
-## Heading example
+Welcome to Waypoint Ventures! We’re glad you’ve joined our team. 
 
-An example of a heading and image.
+We’ve found that people who fill Subject-Matter Expert (SME) Writer and Microlearning Specialist (MLS) roles typically have a smoother experience developing content if they understand their role on the development team, including what we expect of them (and what we don’t), and who else might be on their team. We think you’ll find these materials helpful as you dig into Waypoint’s development process and your critical role in it. 
 
-![Alt text](../assets/images/01-this-category\01-example-guide/01-image.png)
+>[!Note]
+>This high-level onboarding material is oriented toward general content development. However, some of it specifically targets development of microlearning content. 
 
-## Front matter
+## Recommended communication methods
 
-Variable name|Options and description
-:---|:---
-*layout*|Options are **page** or **default**. Always set this to **page**, unless you require a full width webpage with no sidebar (like the landing/ welcome page).
-*title*|Add a title. This will appear on the webpage and in the sidebar.
-*subtitle*|Add a subtitle. This will appear on the webpage but not in the sidebar.
-*description*|Add a description. This won't appear anywhere but is helpful to understanding what the page is about.
-*author*|Add your name
-*date*|Add a date for when you created the markdown file in the format `DD` `mmm` `YYYY` e.g. **01 Apr 2021**.
-*post-number*|Give the post a number like **1.2** where **1.** refers to the category number (i.e. category number 1) and .2 refers to the post number within the category. So, 1.2 is the first category, second post.
-*category*|Assign the post to a category. The category you assign must exist in the YAML file `_config.yml`. You can add categories to `_config.yml`, in the **Sections** list/ array.
-*position-in-category*|Assign a number. This number determines where the post will appear in the sidebar, within the corresponding sidebar category.
-*video_url*|Options are **none** or a url. To add a video to a page, change **video_url** from **none** to a url like **https://web.microsoftstream.com/embed/video/123**. Then add the **video include link** wherever you want the video to appear inside your markdown file. Refer to [Some guide]({{site.baseurl}}/that-category/some-guide.html).
+Waypoint has guidelines to help you decide how best to communicate about project matters and milestones. 
 
-It's also worth noting the syntax for linking to pages within this site (refer to the last cell in the previous table). Note the prefix `{{site.baseurl}}`. The prefix ensures your links will work locally and on GitHub.
+We recommend that you use: 
+
+- Email (the newest version of [Outlook)](https://support.microsoft.com/en-us/office/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) for communications of record, such as assignments, [hand-offs](https://waypointventures.sharepoint.com/:p:/r/sites/Home/Waypoint Documents/Waypoint Hand-off Foundations.pptx?d=w780b3b7367794d8ea5060ba3b1372de5&csf=1&web=1&e=yAhZGW), sign-offs, and similar communication. Email is the most reliable communication method for threads and information that we want to retain within a project record. 
+- A [Microsoft Teams](https://support.microsoft.com/en-us/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us) chat for quick conversations with another team member or two. Do you need a question answered or a point clarified? A Teams chat message is essentially an instant message (IM) that’s useful for information conversations. 
+
+>[!Tip]
+>When starting a Teams chat, make sure you tag the person you’re trying to reach. This alerts them that they have a chat waiting. To tag a person, in the chat field, enter the @ symbol and then the first few letters of their name. Select their contact info when it appears. 
+
+- [Teams channel](https://support.microsoft.com/en-us/office/work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e) conversations for projects. You’ll typically use a specific Teams site’s General channel and conduct your conversation there. Channel conversations are great for sharing concepts and ideas, and for team-wide messaging, kind of like a whole-team chat session. Again, if you want to draw the attention of a specific person or persons, tag them. 
+- [Meetings](https://support.microsoft.com/en-us/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67) for when you want a more formal session in which team members connect in an online gathering to discuss an agenda and reach a documented outcome. 
+
+>[!Note]
+>Create all meetings in Outlook, and use the [Scheduling Assistant](https://support.microsoft.com/en-us/office/use-the-scheduling-assistant-and-room-finder-for-meetings-in-outlook-2e00ac07-cef1-47c8-9b99-77372434d3fa) and other Outlook tools to ensure those people who need to be at your meeting are available. Be sure to select the Teams Meeting button on the ribbon. It generates a Teams meeting link that appears in the meeting-invite email, so you and other participants can select it and join the meeting in Teams. 
+
+### Microsoft Corpnet credentials 
+
+For many Waypoint projects, you’ll receive Microsoft corporate network (Corpnet) credentials. This is a Microsoft email address and password. We refer to these credentials as a *vdash* because the first two characters in the email address are a *v* and a dash (*-*), such as [v-johndoe@microsoft.com](mailto:v-johndoe@microsoft.com). The “v” signifies that you’re a Microsoft vendor. 
+
+You’ll use your Corpnet credentials to access restricted Microsoft resources. You can also use your Corpnet credentials and Azure Virtual Desktop (called Remote Desktop on your computer) to access a complete Office 365 environment, including Outlook, Teams, and Microsoft Office. Learn more about [Getting and using your Microsoft Corpnet credentials](https://waypointventures.sharepoint.com/:w:/r/sites/Home/_layouts/15/Doc.aspx?sourcedoc={6CC69912-B551-43CD-B842-2A09295BA592}&file=Getting and using your Microsoft Corpnet credentials.docx&action=default&mobileredirect=true). 
+
+## Information management
+
+Here are the storage locations Waypoint uses for information: 
+
+- [Waypoint’s intranet portal](https://waypointventures.sharepoint.com/sites/Home/SitePages/MS-Learn-microlearning.aspx) houses our orientation and internal content development and project management instructional materials. 
+
+- [Teams channels](https://support.microsoft.com/en-us/office/work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e) are for internal, project-related materials and conversations. 
+- GitHub, Azure DevOps, and [SharePoint](https://support.microsoft.com/en-us/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) are used to share content internally and externally. 
+- Microsoft Project Online (or “Project Server”) stores in-flight project files and reports. The files are located at https://waypointventures.sharepoint.com/sites/pwa/Projects.aspx. 
+- OneNote, where you’ll find templates for emails, project schedules, meeting notes, and other important content for your project. Contact your Project Manager (PjM) for more information. 
