@@ -1,13 +1,9 @@
 ---
-layout: page
+layout: default
 title: Welcome to Waypoint
 description:  A welcome/ landing webpage for the WayPoint Ventures onboarding documentation website
 author: kcarlson
 date: 6 Sept 2021
-post-number: 1.1
-category: welcome-category
-position-in-category: 1
-video_url: "none"
 ---
 
 Welcome to Waypoint Ventures! We’re glad you’ve joined our team. 
