@@ -10,8 +10,7 @@ Welcome to Waypoint Ventures! We’re glad you’ve joined our team.
 
 We’ve found that people who fill Subject-Matter Expert (SME) Writer and Microlearning Specialist (MLS) roles typically have a smoother experience developing content if they understand their role on the development team, including what we expect of them (and what we don’t), and who else might be on their team. We think you’ll find these materials helpful as you dig into Waypoint’s development process and your critical role in it. 
 
->[!Note]
->This high-level onboarding material is oriented toward general content development. However, some of it specifically targets development of microlearning content. 
+>**Note:** This high-level onboarding material is oriented toward general content development. However, some of it specifically targets development of microlearning content. 
 
 ## Recommended communication methods
 
@@ -19,7 +18,7 @@ Waypoint has guidelines to help you decide how best to communicate about project
 
 We recommend that you use: 
 
-- Email (the newest version of [Outlook)](https://support.microsoft.com/en-us/office/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) for communications of record, such as assignments, [hand-offs](https://waypointventures.sharepoint.com/:p:/r/sites/Home/Waypoint Documents/Waypoint Hand-off Foundations.pptx?d=w780b3b7367794d8ea5060ba3b1372de5&csf=1&web=1&e=yAhZGW), sign-offs, and similar communication. Email is the most reliable communication method for threads and information that we want to retain within a project record. 
+- Email (the newest version of [Outlook)](https://support.microsoft.com/en-us/office/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) for communications of record, such as assignments, [hand-offs](https://waypointventures.sharepoint.com/:p:/r/sites/Home/_layouts/15/Doc.aspx?sourcedoc=%7B780B3B73-6779-4D8E-A506-0BA3B1372DE5%7D&file=Waypoint%20Hand-off%20Foundations.pptx&action=edit&mobileredirect=true), sign-offs, and similar communication. Email is the most reliable communication method for threads and information that we want to retain within a project record. 
 - A [Microsoft Teams](https://support.microsoft.com/en-us/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us) chat for quick conversations with another team member or two. Do you need a question answered or a point clarified? A Teams chat message is essentially an instant message (IM) that’s useful for information conversations. 
 
 >[!Tip]
