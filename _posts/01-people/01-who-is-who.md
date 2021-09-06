@@ -10,7 +10,7 @@ category: 01-people
 position-in-category: 1
 ---
 
-It’s useful to know the other people and their roles on your project team. Roles and responsibilities might vary from project to project, but those listed in the following table reflect the people who’ll usually be involved in a project. It’s important to note that for some roles, such as the SME Writer, it’s common to have more than one person fulfilling the role. 
+It’s useful to know the other people and their roles on your project team. Roles and responsibilities might vary from project to project, but those listed in the following table reflect the people who’ll usually be involved in a project. It’s important to note that for some roles, such as the SME Writer, it’s common to have more than one person fulfilling the role.
 
 | Role name | Abbreviation | General responsibilities |
 | ------------------------ | ------------ | ------------------------------------------------------------ |
