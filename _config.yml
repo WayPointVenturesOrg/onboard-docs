@@ -21,7 +21,8 @@ codeurl: 'https://waypointventuresorg.github.io/onboard-docs/'
 # Default categories (in order) to appear in the navigation
 sections: [
   ['welcome','Welcome'],
-  ['project-information','Project Information']
+  ['people','People']
+  ['projects','Projects']
 ]
 
 # Keep as an empty string if served up at the root. If served up at a specific
