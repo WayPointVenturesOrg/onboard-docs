@@ -10,7 +10,6 @@ category: 00-welcome
 position-in-category: 1
 video_url: "none"
 ---
-# Welcome to Waypoint
 
 Welcome to Waypoint Ventures! We’re glad you’ve joined our team. 
 

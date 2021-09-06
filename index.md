@@ -10,8 +10,6 @@ position-in-category: 1
 video_url: "none"
 ---
 
-# Welcome to Waypoint
-
 Welcome to Waypoint Ventures! We’re glad you’ve joined our team. 
 
 We’ve found that people who fill Subject-Matter Expert (SME) Writer and Microlearning Specialist (MLS) roles typically have a smoother experience developing content if they understand their role on the development team, including what we expect of them (and what we don’t), and who else might be on their team. We think you’ll find these materials helpful as you dig into Waypoint’s development process and your critical role in it. 
