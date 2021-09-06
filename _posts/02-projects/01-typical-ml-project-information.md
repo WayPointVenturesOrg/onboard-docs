@@ -170,7 +170,7 @@ For detailed information about using VSC and GitHub, please refer to [Waypoint V
 
 Prior to Compliance testing, the MLS moves the module files to GitHub.
 
-Most of the development process happens in Word, so authors and reviewers can take advantage of Word’s excellent commenting and tracking features. Just before prepublishing tests, the MLS uses Typora to convert the module Word files to markdown. 
+Most of the development process happens in Word, so authors and reviewers can take advantage of Word’s excellent commenting and tracking features. Just before pre-publishing tests, the MLS uses Typora to convert the module Word files to markdown. 
 
 The MLS opens the markdown files in VSC and performs a global review and conducts remediation, including fixing bulleted lists and checking for correct syntax including headings, tables, images, and links. The MLS then uploads the markdown files to GitHub. 
 
@@ -204,7 +204,7 @@ The Acrolinx program scans all markdown and yaml files and then provides a detai
 
 >**Note:** Please review all Acrolinx results, even if a file has a score above 80, to determine whether it’s flagged any spelling errors. If spelling errors are by design, such as a product name or code snippet, the PjM should make a note to that effect in the “#sign-off” comment during the publication phase. 
 
-![Example of an Acrolinx scorecard.](../assets/images/02-projects/acrolinx-scorecard.png)
+![Example of an Acrolinx scorecard.](../../assets/images/02-projects/acrolinx-scorecard.png)
 
 >**Hint:** To see details about the score for a particular file, select **link** in the **Scorecard** column.
 
@@ -216,7 +216,7 @@ This automated check determines whether files are working correctly together to 
 
 - To preview the module as it will look in its published form, select the **View** link for the index.yml file. This will open the first page in the course. Selecting the **View** link for another page will open that page.
 
-![Validation (build) status report.](../assets/images/02-projects/validation-status.png)
+![Validation (build) status report.](../../assets/images/02-projects/validation-status.png)
 
 The MLS checks the automated build reports and ensures that all content can publish without errors.
 
@@ -233,7 +233,7 @@ Once all units of a module have an Acrolinx score of 80 or higher and pass all b
 
 3. The Microsoft Reviewer responds with feedback in comments.
 
-![Pull request with Microsoft reviewer's response to project manager comments.](../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png)
+![Pull request with Microsoft reviewer's response to project manager comments.](../../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png)
 
 4. The PjM resolves the issues raised in the Microsoft reviewer’s comments.
 5. The PjM comments and adds “#sign-off” in comments in the pull request.
