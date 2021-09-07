@@ -19,9 +19,7 @@ navigation: 1
 codeurl: 'https://waypointventuresorg.github.io/onboard-docs/'
 
 # Default categories (in order) to appear in the navigation
-sections: [
-  ['people','People'],['projects','Projects']
-]
+sections: [['people','People'],['projects','Projects']]
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project

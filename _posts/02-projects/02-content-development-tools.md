@@ -42,3 +42,5 @@ You should have familiarity using:
 - Microsoft OneNote. You’ll need this primarily to access the Project Book.
 
 >**Note:** The project book is accessible from Teams, also, although it’s an embedded OneNote file, so understanding how to “get around” in OneNote is helpful.
+
+{% include paginator.html %}

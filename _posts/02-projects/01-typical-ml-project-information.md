@@ -237,3 +237,5 @@ Once all units of a module have an Acrolinx score of 80 or higher and pass all b
 
 4. The PjM resolves the issues raised in the Microsoft reviewer’s comments.
 5. The PjM comments and adds “#sign-off” in comments in the pull request.
+
+{% include paginator.html %}
