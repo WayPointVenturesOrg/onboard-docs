@@ -6,12 +6,10 @@ description: An overview of the stages in a microlearning module-creation projec
 author: kcarlson
 date: 09 Sept 2021
 post-number: 2.1
-category: 02-projects
+category: projects
 position-in-category: 1
 video_url: "none"
 ---
-
-# Typical microlearning project information
 
 The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” projects.
 
@@ -64,13 +62,11 @@ Creating the Module design document is the first step in module development. A d
 
 A design document gives a project’s Subject Matter Experts and Microlearning Specialists an opportunity to examine the flow of material and each component’s timing, to help determine whether the content adequately addresses the specified learning objectives. 
 
->[!Note]
->An MLS often will assist a SME with creating a module’s design so that it fulfills our statement of work and meets requisite delivery standards.
+>**Note:** An MLS often will assist a SME with creating a module’s design so that it fulfills our statement of work and meets requisite delivery standards.
 
 SMEs must use the provided Microsoft Word template to create a module’s design document, as it contains the required layout and content that Microsoft expects for microlearning modules. 
 
->[!Note]
->It’s imperative that you use headings and other Word paragraph styles that the template provides, as these are required for converting Word content to markdown. 
+>**Note:** It’s imperative that you use headings and other Word paragraph styles that the template provides, as these are required for converting Word content to markdown. 
 
 An approved, detailed Microsoft Word template will be provided to SMEs for use in creating a module’s design document. It contains the correct layout and content that Microsoft expects for a Microlearning module. 
 
@@ -78,8 +74,7 @@ Note: It’s imperative to use the headings and other Word paragraph styles in t
 
 The template also contains comments that’ll help guide SMEs as they develop microlearning content, particularly with respect to adding the correct content in the proper format. It also contains links to pertinent articles about development and other topics in the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main).
 
->[!Important]
->A module’s design *must adhere* to the guidance from the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main). All SMEs and Microlearning Specialists must be familiar with the portions of the guide that apply to all content they create and edit. We recommend that you start by reading the content under [Authoring Guidelines](https://review.docs.microsoft.com/en-us/help/learn/id-guidance?branch=main) section.
+>**Important!** A module’s design *must adhere* to the guidance from the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main). All SMEs and Microlearning Specialists must be familiar with the portions of the guide that apply to all content they create and edit. We recommend that you start by reading the content under [Authoring Guidelines](https://review.docs.microsoft.com/en-us/help/learn/id-guidance?branch=main) section.
 
 ### Reviews of module design
 
@@ -115,22 +110,19 @@ All of our design docs go through a full copy-edit pass prior to final sign off.
 
 In this phase, the SME writes the module content, requests conceptual graphics from our Media Production team (MPs), and develops exercise steps and/or creates a video concept document. 
 
->[!Note]
->A *video concept document* is a 300-words-or-less “directorial guidance” document provided to Microsoft to obtain a desktop demonstration video with captions. 
+>**Note:** A *video concept document* is a 300-words-or-less “directorial guidance” document provided to Microsoft to obtain a desktop demonstration video with captions. 
 
 Here are some important items to note:
 
 - The SME must use the provided Module template in Word to create the module. The Module template contains the required structure and format for the module, and includes helpful notes and links to pertinent portions of the [Microsoft Learn Contributor Guide.](https://review.docs.microsoft.com/en-us/help/learn/?branch=main) Like a module’s design document, the actual module units *must conform* to the Microsoft Learn guidelines. SMEs must use the provided templates and not their own formats.
 
->[!Note]
->It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown. 
+>**Note:** It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown. 
 
-- A project’s customer signs off on the completed design document. Therefore, the SME must adhere to that document. Otherwise, a Change Order is required. A PjM must administer all change orders. 
+- A project’s customer signs off on the completed design document. Therefore, the SME must adhere to that document. Otherwise, a Change Order is required. A PjM must administer all change orders.
 
 - During development, you’ll need to identify the need for any conceptual graphics or demonstration videos, and work with the assigned Multimedia Provider (MP) to create these deliverables.
 
->[!Note]
->We recommend that you limit your use of screenshots, because they can quickly become out of date.
+>**Note:** We recommend that you limit your use of screenshots, because they can quickly become out of date.
 
 - For the student “hands on” exercises, the SME determines the exercise steps and chooses one of two environments:
 
@@ -150,7 +142,7 @@ Tip: The SME can take screen captures of the UI as they work in the app or tool.
 
 ### Module reviews
 
-Note: If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation. 
+Note: If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation.
 
 #### ID pass
 
@@ -178,7 +170,7 @@ For detailed information about using VSC and GitHub, please refer to [Waypoint V
 
 Prior to Compliance testing, the MLS moves the module files to GitHub.
 
-Most of the development process happens in Word, so authors and reviewers can take advantage of Word’s excellent commenting and tracking features. Just before prepublishing tests, the MLS uses Typora to convert the module Word files to markdown. 
+Most of the development process happens in Word, so authors and reviewers can take advantage of Word’s excellent commenting and tracking features. Just before pre-publishing tests, the MLS uses Typora to convert the module Word files to markdown. 
 
 The MLS opens the markdown files in VSC and performs a global review and conducts remediation, including fixing bulleted lists and checking for correct syntax including headings, tables, images, and links. The MLS then uploads the markdown files to GitHub. 
 
@@ -186,15 +178,13 @@ The MLS opens the markdown files in VSC and performs a global review and conduct
 
 The MLS performs the Compliance testing pass, where they assess the content for issues in the areas of accessibility, global readiness, licensing, and privacy. The MLS corrects any issues found.
 
->[!Note]
->When in doubt, please escalate questions to the Compliance team via your PjM. 
+>**Note:** When in doubt, please escalate questions to the Compliance team via your PjM. 
 
 ### MLS creates a pull request from the MLS branch
 
 After the files are uploaded to GitHub, the MLS creates a [pull request](https://waypointventures.github.io/docs/workflow/terminology.html#using-prs) to merge their branch back into the master branch. 
 
-> [!Important]
-> The MLS *should never merge* their branch into the master branch. The PjM performs this action just prior to publication. 
+> **Important!** The MLS *should never merge* their branch into the master branch. The PjM performs this action just prior to publication. 
 
 Read more about [pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
@@ -202,24 +192,21 @@ Read more about [pull requests](https://docs.github.com/en/github/collaborating-
 
 The MLS performs all content testing in this phase to ensure the module is ready for publication. 
 
->[!Note]
->To perform quality tests, the MLS must link their v-dash to their GitHub account so as to have the requisite permissions to perform these steps.
+>**Note:** To perform quality tests, the MLS must link their v-dash to their GitHub account so as to have the requisite permissions to perform these steps.
 
 After the MLS create the pull request (refer to the previous step), anytime files are changed or added to GitHub, such as when you push changes from VSC, several automatic checks occur and are reported via email to the pull request’s owner. The automatic checks include generation of an Acrolinx scorecard with a score for each file (markdown and yaml) and a Validation (build) status, which sent to the MLS as emails.
 
 #### Acrolinx Scorecards
 
-Acrolinx Scorecards provide detailed information about how your markdown and yaml content meets defined standards and requirements, providing metrics whereby you can improve your Acrolinx scores prior to publication. At a minimum, all Learn content must have a minimum Acrolinx score of 80. However, at Waypoint, we encourage you to strive for a score of 100 for all files. 
+Acrolinx Scorecards provide detailed information about how your markdown and yaml content meets defined standards and requirements, providing metrics whereby you can improve your Acrolinx scores prior to publication. At a minimum, all Learn content must have a minimum Acrolinx score of 80. However, at Waypoint, we encourage you to strive for a score of 100 for all files.
 
-The Acrolinx program scans all markdown and yaml files and then provides a detailed report about issues it finds, including spelling errors, sentences that are too long or complex (it likes them short and snappy—no compound sentences), word choices (it prefers simple words), and passive construction. 
+The Acrolinx program scans all markdown and yaml files and then provides a detailed report about issues it finds, including spelling errors, sentences that are too long or complex (it likes them short and snappy—no compound sentences), word choices (it prefers simple words), and passive construction.
 
->[!Note]
->Please review all Acrolinx results, even if a file has a score above 80, to determine whether it’s flagged any spelling errors. If spelling errors are by design, such as a product name or code snippet, the PjM should make a note to that effect in the “#sign-off” comment during the publication phase. 
+>**Note:** Please review all Acrolinx results, even if a file has a score above 80, to determine whether it’s flagged any spelling errors. If spelling errors are by design, such as a product name or code snippet, the PjM should make a note to that effect in the “#sign-off” comment during the publication phase. 
 
-![Example of an Acrolinx scorecard.](../assets/images/02-projects/acrolinx-scorecard.png)
+![Example of an Acrolinx scorecard.](../../assets/images/02-projects/acrolinx-scorecard.png)
 
->[!Hint]
->To see details about the score for a particular file, select **link** in the **Scorecard** column.
+>**Hint:** To see details about the score for a particular file, select **link** in the **Scorecard** column.
 
 #### Validation (build) status
 
@@ -229,7 +216,7 @@ This automated check determines whether files are working correctly together to 
 
 - To preview the module as it will look in its published form, select the **View** link for the index.yml file. This will open the first page in the course. Selecting the **View** link for another page will open that page.
 
-![Validation (build) status report.](../assets/images/02-projects/validation-status.png)
+![Validation (build) status report.](../../assets/images/02-projects/validation-status.png)
 
 The MLS checks the automated build reports and ensures that all content can publish without errors.
 
@@ -242,11 +229,13 @@ Once all units of a module have an Acrolinx score of 80 or higher and pass all b
 1. The PjM adds “#sign-off” to the comments in the pull request.
 2. The pull request gets assigned to the appropriate Microsoft reviewer.
 
-![PUll request with project manager's comments.](../assets/images/02-projects/pull-request-pjm-comments.png)
+![Pull request with project manager's comments.](../../assets/images/02-projects/pull-request-pjm-comments.png)
 
 3. The Microsoft Reviewer responds with feedback in comments.
 
-![Pull request with Microsoft reviewer's response to project manager comments.](../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png)
+![Pull request with Microsoft reviewer's response to project manager comments.](../../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png)
 
 4. The PjM resolves the issues raised in the Microsoft reviewer’s comments.
 5. The PjM comments and adds “#sign-off” in comments in the pull request.
+
+{% include paginator.html %}
