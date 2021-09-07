@@ -18,9 +18,9 @@ We’ve found that people who fill Subject-Matter Expert (SME) Writer and Microl
 
 On this page, read about communication, credentials, and information management. You might also want to:
 
-- Get an overview of a [typical microlearning project]({{site.baseurl}}/02-projects/01-typical-ml-project-information.html).
-- Learn what [content development tools]({{site.baseurl}}/02-projects/01-typical-ml-project-information.html) you'll need.
-- Read ["Who's who on the team"]({{site.baseurl}}/01-people/01-who-is-who.html) to learn about your roles and responsibilities, and those of your teammates.
+- Get an overview of a [typical microlearning project]({{site.baseurl}}/projects/typical-ml-project-information.html).
+- Learn what [content development tools]({{site.baseurl}}/projects/typical-ml-project-information.html) you'll need.
+- Read ["Who's who on the team"]({{site.baseurl}}/people/who-is-who.html) to learn about your roles and responsibilities, and those of your teammates.
 
 ## Recommended communication methods
 
@@ -53,5 +53,3 @@ Here are the storage locations Waypoint uses for information:
 - GitHub, Azure DevOps, and [SharePoint](https://support.microsoft.com/en-us/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) are used to share content internally and externally. 
 - Microsoft Project Online (or “Project Server”) stores in-flight project files and reports. The files are located at https://waypointventures.sharepoint.com/sites/pwa/Projects.aspx. 
 - OneNote, where you’ll find templates for emails, project schedules, meeting notes, and other important content for your project. Contact your Project Manager (PjM) for more information.
-
-{% include paginator.html %}
