@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Subject Matter Expert responsibilities
+title: SME Writer responsibilities
 subtitle:
 description: A guide to the responsibilities of the Subject Matter Expert
 author: kcarlson
