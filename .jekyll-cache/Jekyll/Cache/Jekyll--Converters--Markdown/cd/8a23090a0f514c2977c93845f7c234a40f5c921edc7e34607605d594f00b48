@@ -1,117 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width">
-
-        <title>WayPoint Ventures : Microlearning project info</title>
-        <meta name="description" content="Onboarding documentation">
-
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="/onboard-docs/css/syntax.css">
-        <link rel="stylesheet" href="/onboard-docs/css/main.css">
-    </head>
-    <body>
-
-        <div class="container">
-            <div class="row">
-                <div id="header" class="col-sm-12">
-                    <img class="logo" src="/onboard-docs/assets/images/logo.png" alt="WayPoint Ventures logo">
-<h4><a class="brand" href="/onboard-docs/"></a>
-    <small>Onboarding documentation</small>
-</h4>
-
-                </div>
-            </div>
-
-            <div class="row">
-                
-                
-                    <div id="navigation" class="col-sm-3">
-                        <ul class="nav nav-list">
-    
-        <li><a href="/onboard-docs/">Welcome</a></li>
-    
-
-    
-        
-        
-
-        
-            
-                <li class="nav-header">People</li>
-                <!-- <li class="divider">___</li> -->
-            
-
-            
-                <li data-order="3"><a href="/onboard-docs/people/mls.html">MLS responsibilites</a></li>
-            
-        
-            
-
-            
-                <li data-order="2"><a href="/onboard-docs/people/sme-writer.html">SME Writer responsibilities</a></li>
-            
-        
-            
-
-            
-                <li data-order="1"><a href="/onboard-docs/people/who-is-who.html">Who's who on the team</a></li>
-            
-        
-    
-        
-        
-
-        
-            
-                <li class="nav-header">Projects</li>
-                <!-- <li class="divider">___</li> -->
-            
-
-            
-                <li data-order="2"><a href="/onboard-docs/projects/content-development-tools.html">Content-development tools</a></li>
-            
-        
-            
-
-            
-                <li data-order="1"><a class="nav-active" href="/onboard-docs/projects/typical-ml-project-information.html">Microlearning project info</a></li>
-                
-        
-    
-<!-- List additional links. It is recommended to add a divider
-    e.g. <li class="divider"></li> first to break up the content. -->
-</ul>
-
-                    </div>
-
-                    <div id="content" class="col-sm-9">
-                        <div class="row">
-    <div id="breadcrumbs" class="col-sm-12">
-        <div id="breadcrumbs">
-	
-	<a href="/onboard-docs/">Home</a>
-	
-	    
-    
-	    
-		  / Projects
-		  / Microlearning project info
-	    
-    
-</div>
-
-    </div>
-</div>
-<div class="page-header">
-    <h1>Microlearning project info
-        
-    </h1>
-</div>
-
-<p>The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” microlearning projects.</p>
+I"�Q<p>The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” projects.</p>
 
 <h2 id="project-duration">Project duration</h2>
 
@@ -307,7 +194,7 @@
 
 <p>After the MLS pass is complete, the MLS hands off the module to CE, who performs a line edit of the content, reviewing for grammar, clarity, flow, and writing style and sentence structure, and also determines whether terminology and capitalization are correct for all products, terms, components, tool, and similar. The CE also helps tighten sentence structure, as complex sentences can result in low Acrolinx scores (successful publication is contingent on sufficient Acrolinx scores). CE also runs the FindWords macro and Editor tool on all content to ensure it’s compliant and correct, and uses track changes and comments to conduct their edits. Once the CE finishes their pass, they submit their edited content to the MLS. The MLS resolves or rejects the tracking, and may ask the SME questions to clarify the content.</p>
 
-<h3 id="create-a-branch-off-the-master">Create a branch off the master</h3>
+<h4 id="create-a-branch-off-the-master">Create a branch off the master</h4>
 
 <p>In GitHub, the MLS creates an MLS branch off the master to use for the module. One branch is made per module. The MLS can create this branch through a browser in GitHub or <a href="https://waypointventures.github.io/docs/branches/new-branch.html">in Visual Studio Code (VSC</a>).</p>
 
@@ -423,7 +310,7 @@
 <div class="paginator">
     <p>
         
-        <a class="btn btn-primary" href="/onboard-docs/people/mls.html" role="button">&#8672;&nbsp;MLS responsibilites</a>
+        <a class="btn btn-primary" href="/onboard-docs/people/mls-responsibilities.html" role="button">&#8672;&nbsp;Microlearning Specialist responsibilites</a>
         
     </p>
     <p>
@@ -432,78 +319,4 @@
         
     </p>
 </div>
-
-
-                    </div>
-                
-            </div>
-
-            
-
-            <div class="row">
-                <div id="footer" class="col-sm-12">
-                    Documentation for <a href="https://waypointventuresorg.github.io/onboard-docs/">WayPoint Ventures</a>
-
-                </div>
-            </div>
-        </div>
-
-        <script>
-            function orderNav() {
-                var list,
-                    section,
-                    header,
-                    sections = [],
-                    lists = {},
-                    headers = {};
-
-                var navUl = document.querySelectorAll('#navigation ul')[0],
-                    navLis = document.querySelectorAll('#navigation ul li');
-
-                if (!navUl) return;
-
-                for (var i = 0; i < navLis.length; i++) {
-                    var order, li = navLis[i];
-
-                    if (li.classList.contains('nav-header')) {
-                        section = li.textContent || li.innerText;
-                        sections.push(section);
-                        headers[section] = li;
-                        continue;
-                    }
-
-                    if (!lists[section]) {
-                        lists[section] = [];
-                    }
-
-                    order = parseFloat(li.getAttribute('data-order'))
-                    lists[section].push([order, li]);
-                }
-
-                for (var i = 0; i < sections.length; i++) {
-                    section = sections[i];
-                    list = lists[section].sort(function(a, b) {
-                        return a[0] - b[0];
-                    });
-
-                    if (header = headers[section]) {
-                        navUl.appendChild(header);
-                    }
-                    for (var j = 0; j < list.length; j++) {
-                        navUl.appendChild(list[j][1]);
-                    }
-                }
-            }
-
-            if (document.querySelectorAll) orderNav();
-        </script>
-        
-        <!-- back-to-top -->
-        <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-        <script>addBackToTop({
-                diameter: 56,
-                backgroundColor: 'rgb(51, 122, 183)',
-                textColor: '#fff'
-            })</script>
-    </body>
-</html>
+:ET

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/onboard-docs/feed.xml" rel="self" type="application/atom+xml" /><link href="/onboard-docs/" rel="alternate" type="text/html" /><updated>2021-09-07T09:36:46-05:00</updated><id>/onboard-docs/feed.xml</id><title type="html">WayPoint Ventures</title><entry><title type="html">Content-development tools</title><link href="/onboard-docs/projects/content-development-tools.html" rel="alternate" type="text/html" title="Content-development tools" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/projects/content-development-tools</id><content type="html" xml:base="/onboard-docs/projects/content-development-tools.html">&lt;p&gt;To author or edit a course, SME Writers (SMEs), Instructional Designers (IDs), Microlearning Specialists (MLS), and others who write or edit content need to install and use several specific tools.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/onboard-docs/feed.xml" rel="self" type="application/atom+xml" /><link href="/onboard-docs/" rel="alternate" type="text/html" /><updated>2021-09-07T14:11:00-05:00</updated><id>/onboard-docs/feed.xml</id><title type="html">WayPoint Ventures</title><entry><title type="html">Content-development tools</title><link href="/onboard-docs/projects/content-development-tools.html" rel="alternate" type="text/html" title="Content-development tools" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/projects/content-development-tools</id><content type="html" xml:base="/onboard-docs/projects/content-development-tools.html">&lt;p&gt;To author or edit a course, SME Writers (SMEs), Instructional Designers (IDs), Microlearning Specialists (MLS), and others who write or edit content need to install and use several specific tools.&lt;/p&gt;
 
 &lt;h2 id=&quot;required-tools&quot;&gt;Required tools&lt;/h2&gt;
 
@@ -15,14 +15,13 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://waypointventures.github.io/docs/install/install-vsc.html&quot;&gt;Visual Studio Code&lt;/a&gt;. VSC is a powerful editing tool that enables you to develop, debug, and collaborate on code. We predominantly use it for creating and editing markdown content. Additionally, note that there are several VSC extensions you’ll need, including the &lt;a href=&quot;https://waypointventures.github.io/docs/install/install-author-pack.html&quot;&gt;Docs Authoring Pack&lt;/a&gt;, Acrolinx for Visual Studio Code, and several docs.microsoft.com and GitHub extensions. For a complete list of extensions, visit &lt;a href=&quot;https://waypointventures.github.io/docs/install/install-vsc.html&quot;&gt;Visual Studio Code&lt;/a&gt; and follow the links under &lt;strong&gt;Install software&lt;/strong&gt; in the menu.&lt;/li&gt;
-  &lt;li&gt;Typora. Typora is an editing tool you can use to convert Microsoft Word files to markdown and edit markdown files directly.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Typora. Typora is an editing tool you can use to convert Microsoft Word files to markdown and edit markdown files directly.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Upon customer approval, we do prefer to develop and review microlearning content in Word. Therefore, it’s possible that only the Microlearning Specialist (MLS) will need or use VSC or Typora.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Upon customer approval, we do prefer to develop and review microlearning content in Word. Therefore, it’s possible that only the Microlearning Specialist (MLS) will need or use VSC or Typora.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
   &lt;li&gt;Microsoft PowerPoint or Visio. You can use these programs to create mockups of conceptual graphics and diagrams.&lt;/li&gt;
   &lt;li&gt;An image editor such as Snagit or Paint 3D. You can use these tools to crop and apply other edits to screenshots, such as removing personal information.&lt;/li&gt;
 &lt;/ul&gt;
@@ -35,19 +34,21 @@
   &lt;li&gt;SharePoint, in particular, SharePoint libraries.&lt;/li&gt;
   &lt;li&gt;Microsoft Teams. You’ll need this to access many project resources, as well as participating in Teams meetings, chats, and sharing files.&lt;/li&gt;
   &lt;li&gt;Familiarity with GitHub, Azure DevOps, and Acrolinx.&lt;/li&gt;
-  &lt;li&gt;Microsoft OneNote. You’ll need this primarily to access the Project Book.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Microsoft OneNote. You’ll need this primarily to access the Project Book.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The project book is accessible from Teams, also, although it’s an embedded OneNote file, so understanding how to “get around” in OneNote is helpful.&lt;/p&gt;
-&lt;/blockquote&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The project book is accessible from Teams, also, although it’s an embedded OneNote file, so understanding how to “get around” in OneNote is helpful.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;div class=&quot;paginator&quot;&gt;
     &lt;p&gt;
         
-        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/projects/typical-ml-project-information.html&quot; role=&quot;button&quot;&gt;&amp;#8672;&amp;nbsp;Typical microlearning project information&lt;/a&gt;
+        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/projects/typical-ml-project-information.html&quot; role=&quot;button&quot;&gt;&amp;#8672;&amp;nbsp;Microlearning project info&lt;/a&gt;
         
     &lt;/p&gt;
     &lt;p&gt;
@@ -120,10 +121,10 @@
     &lt;/p&gt;
     &lt;p&gt;
         
-        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/sme-responsibilities.html&quot; role=&quot;button&quot;&gt;Subject Matter Expert responsibilities&amp;nbsp;&amp;#8674;&lt;/a&gt;
+        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/sme-writer.html&quot; role=&quot;button&quot;&gt;SME Writer responsibilities&amp;nbsp;&amp;#8674;&lt;/a&gt;
         
     &lt;/p&gt;
-&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="people" /><summary type="html">It’s useful to know the other people and their roles on your project team. Roles and responsibilities might vary from project to project, but those listed in the following table reflect the people who’ll usually be involved in a project. It’s important to note that for some roles, such as the SME Writer, it’s common to have more than one person fulfilling the role.</summary></entry><entry><title type="html">Subject Matter Expert responsibilities</title><link href="/onboard-docs/people/sme-responsibilities.html" rel="alternate" type="text/html" title="Subject Matter Expert responsibilities" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/people/sme-responsibilities</id><content type="html" xml:base="/onboard-docs/people/sme-responsibilities.html">&lt;p&gt;Content TBD&lt;/p&gt;
+&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="people" /><summary type="html">It’s useful to know the other people and their roles on your project team. Roles and responsibilities might vary from project to project, but those listed in the following table reflect the people who’ll usually be involved in a project. It’s important to note that for some roles, such as the SME Writer, it’s common to have more than one person fulfilling the role.</summary></entry><entry><title type="html">SME Writer responsibilities</title><link href="/onboard-docs/people/sme-writer.html" rel="alternate" type="text/html" title="SME Writer responsibilities" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/people/sme-writer</id><content type="html" xml:base="/onboard-docs/people/sme-writer.html">&lt;p&gt;Content TBD&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -135,29 +136,29 @@
     &lt;/p&gt;
     &lt;p&gt;
         
-        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/mls-responsibilities.html&quot; role=&quot;button&quot;&gt;Microlearning Specialist responsibilites&amp;nbsp;&amp;#8674;&lt;/a&gt;
+        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/mls.html&quot; role=&quot;button&quot;&gt;MLS responsibilites&amp;nbsp;&amp;#8674;&lt;/a&gt;
         
     &lt;/p&gt;
-&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="people" /><summary type="html">Content TBD</summary></entry><entry><title type="html">Microlearning Specialist responsibilites</title><link href="/onboard-docs/people/mls-responsibilities.html" rel="alternate" type="text/html" title="Microlearning Specialist responsibilites" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/people/mls-responsibilities</id><content type="html" xml:base="/onboard-docs/people/mls-responsibilities.html">&lt;p&gt;Content TBD&lt;/p&gt;
+&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="people" /><summary type="html">Content TBD</summary></entry><entry><title type="html">MLS responsibilites</title><link href="/onboard-docs/people/mls.html" rel="alternate" type="text/html" title="MLS responsibilites" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/people/mls</id><content type="html" xml:base="/onboard-docs/people/mls.html">&lt;p&gt;Content TBD&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;div class=&quot;paginator&quot;&gt;
     &lt;p&gt;
         
-        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/sme-responsibilities.html&quot; role=&quot;button&quot;&gt;&amp;#8672;&amp;nbsp;Subject Matter Expert responsibilities&lt;/a&gt;
+        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/sme-writer.html&quot; role=&quot;button&quot;&gt;&amp;#8672;&amp;nbsp;SME Writer responsibilities&lt;/a&gt;
         
     &lt;/p&gt;
     &lt;p&gt;
         
-        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/projects/typical-ml-project-information.html&quot; role=&quot;button&quot;&gt;Typical microlearning project information&amp;nbsp;&amp;#8674;&lt;/a&gt;
+        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/projects/typical-ml-project-information.html&quot; role=&quot;button&quot;&gt;Microlearning project info&amp;nbsp;&amp;#8674;&lt;/a&gt;
         
     &lt;/p&gt;
-&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="people" /><summary type="html">Content TBD</summary></entry><entry><title type="html">Typical microlearning project information</title><link href="/onboard-docs/projects/typical-ml-project-information.html" rel="alternate" type="text/html" title="Typical microlearning project information" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/projects/typical-ml-project-information</id><content type="html" xml:base="/onboard-docs/projects/typical-ml-project-information.html">&lt;p&gt;The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” projects.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="people" /><summary type="html">Content TBD</summary></entry><entry><title type="html">Microlearning project info</title><link href="/onboard-docs/projects/typical-ml-project-information.html" rel="alternate" type="text/html" title="Microlearning project info" /><published>2021-09-09T00:00:00-05:00</published><updated>2021-09-09T00:00:00-05:00</updated><id>/onboard-docs/projects/typical-ml-project-information</id><content type="html" xml:base="/onboard-docs/projects/typical-ml-project-information.html">&lt;p&gt;The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” microlearning projects.&lt;/p&gt;
 
 &lt;h2 id=&quot;project-duration&quot;&gt;Project duration&lt;/h2&gt;
 
-&lt;p&gt;Project duration can vary drastically based on module type, volume, and customer needs. A ballpark estimate for a “typical” project is between eight and 16 weeks. Your involvement will vary depending on the project’s type and size and your specific role. &lt;em&gt;Contact your Project Manager (PjM) for more information.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Project duration can vary drastically based on module type, volume, and customer needs. A ballpark estimate for a “typical” project is between eight and 16 weeks. Your involvement will vary depending on the project’s type and size and your specific role. Contact your Project Manager (PjM) for more information.&lt;/p&gt;
 
 &lt;p&gt;Projects start when contracts are signed between Waypoint and its customer. We consider them finished after our detailed reviews and testing processes confirm that content is fully qualified for publishing. A project’s development phase, where content is designed and created, typically starts around the fourth week of a project schedule and lasts between four and six weeks.&lt;/p&gt;
 
@@ -182,7 +183,9 @@
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/02-projects/3-phases-development.png&quot; alt=&quot;The three phases of development: Design, Developing, Publishing&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Note: This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
 
@@ -226,8 +229,6 @@
 
 &lt;p&gt;An approved, detailed Microsoft Word template will be provided to SMEs for use in creating a module’s design document. It contains the correct layout and content that Microsoft expects for a Microlearning module.&lt;/p&gt;
 
-&lt;p&gt;Note: It’s imperative to use the headings and other Word paragraph styles in the template, as they’re required for successfully converting Word files to markdown.&lt;/p&gt;
-
 &lt;p&gt;The template also contains comments that’ll help guide SMEs as they develop microlearning content, particularly with respect to adding the correct content in the proper format. It also contains links to pertinent articles about development and other topics in the &lt;a href=&quot;https://review.docs.microsoft.com/en-us/help/learn/?branch=main&quot;&gt;Microsoft Learn Contributor Guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -251,7 +252,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;design-charette-meeting&quot;&gt;Design Charette Meeting&lt;/h5&gt;
+&lt;h4 id=&quot;design-charette-meeting&quot;&gt;Design Charette Meeting&lt;/h4&gt;
 
 &lt;p&gt;To capture customer feedback, we use a Design Charette Meeting format for each module in the project, as follows:&lt;/p&gt;
 
@@ -287,27 +288,23 @@
 &lt;p&gt;Here are some important items to note:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The SME must use the provided Module template in Word to create the module. The Module template contains the required structure and format for the module, and includes helpful notes and links to pertinent portions of the &lt;a href=&quot;https://review.docs.microsoft.com/en-us/help/learn/?branch=main&quot;&gt;Microsoft Learn Contributor Guide.&lt;/a&gt; Like a module’s design document, the actual module units &lt;em&gt;must conform&lt;/em&gt; to the Microsoft Learn guidelines. SMEs must use the provided templates and not their own formats.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The SME must use the provided Module template in Word to create the module. The Module template contains the required structure and format for the module, and includes helpful notes and links to pertinent portions of the &lt;a href=&quot;https://review.docs.microsoft.com/en-us/help/learn/?branch=main&quot;&gt;Microsoft Learn Contributor Guide.&lt;/a&gt; Like a module’s design document, the actual module units &lt;em&gt;must conform&lt;/em&gt; to the Microsoft Learn guidelines. SMEs must use the provided templates and not their own formats.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;A project’s customer signs off on the completed design document. Therefore, the SME must adhere to that document. Otherwise, a Change Order is required. A PjM must administer all change orders.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;During development, you’ll need to identify the need for any conceptual graphics or demonstration videos, and work with the assigned Multimedia Provider (MP) to create these deliverables.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; We recommend that you limit your use of screenshots, because they can quickly become out of date.&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; We recommend that you limit your use of screenshots, because they can quickly become out of date.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;For the student “hands on” exercises, the SME determines the exercise steps and chooses one of two environments:&lt;/p&gt;
 
@@ -332,14 +329,18 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;For exercises or descriptions of steps, use &lt;a href=&quot;https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&amp;amp;topicid=29016&quot;&gt;Microsoft style for procedures&lt;/a&gt;. Be vigilant about using the correct full naming convention (on first reference), spelling, and capitalization of all tools, products, components, terms, and UI elements.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; The SME can take screen captures of the UI as they work in the app or tool. These might help the MLS and CE when they’re conducting their passes, and reviewing procedures and exercise steps.&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Tip: The SME can take screen captures of the UI as they work in the app or tool. These might help the MLS and CE when they’re conducting their passes, and reviewing procedures and exercise steps.&lt;/p&gt;
-
 &lt;h3 id=&quot;module-reviews&quot;&gt;Module reviews&lt;/h3&gt;
 
-&lt;p&gt;Note: If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h4 id=&quot;id-pass&quot;&gt;ID pass&lt;/h4&gt;
 
@@ -349,7 +350,7 @@
 
 &lt;p&gt;After the MLS pass is complete, the MLS hands off the module to CE, who performs a line edit of the content, reviewing for grammar, clarity, flow, and writing style and sentence structure, and also determines whether terminology and capitalization are correct for all products, terms, components, tool, and similar. The CE also helps tighten sentence structure, as complex sentences can result in low Acrolinx scores (successful publication is contingent on sufficient Acrolinx scores). CE also runs the FindWords macro and Editor tool on all content to ensure it’s compliant and correct, and uses track changes and comments to conduct their edits. Once the CE finishes their pass, they submit their edited content to the MLS. The MLS resolves or rejects the tracking, and may ask the SME questions to clarify the content.&lt;/p&gt;
 
-&lt;h4 id=&quot;create-a-branch-off-the-master&quot;&gt;Create a branch off the master&lt;/h4&gt;
+&lt;h3 id=&quot;create-a-branch-off-the-master&quot;&gt;Create a branch off the master&lt;/h3&gt;
 
 &lt;p&gt;In GitHub, the MLS creates an MLS branch off the master to use for the module. One branch is made per module. The MLS can create this branch through a browser in GitHub or &lt;a href=&quot;https://waypointventures.github.io/docs/branches/new-branch.html&quot;&gt;in Visual Studio Code (VSC&lt;/a&gt;).&lt;/p&gt;
 
@@ -415,7 +416,7 @@
   &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Please review all Acrolinx results, even if a file has a score above 80, to determine whether it’s flagged any spelling errors. If spelling errors are by design, such as a product name or code snippet, the PjM should make a note to that effect in the “#sign-off” comment during the publication phase.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/02-projects/acrolinx-scorecard.png&quot; alt=&quot;Example of an Acrolinx scorecard.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/02-projects/acrolinx-scorecard.png&quot; alt=&quot;Example of an Acrolinx scorecard.&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; To see details about the score for a particular file, select &lt;strong&gt;link&lt;/strong&gt; in the &lt;strong&gt;Scorecard&lt;/strong&gt; column.&lt;/p&gt;
@@ -434,7 +435,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/02-projects/validation-status.png&quot; alt=&quot;Validation (build) status report.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../assets/images/02-projects/validation-status.png&quot; alt=&quot;Validation (build) status report.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The MLS checks the automated build reports and ensures that all content can publish without errors.&lt;/p&gt;
 
@@ -446,18 +447,16 @@
 
 &lt;ol&gt;
   &lt;li&gt;The PjM adds “#sign-off” to the comments in the pull request.&lt;/li&gt;
-  &lt;li&gt;The pull request gets assigned to the appropriate Microsoft reviewer.&lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The pull request gets assigned to the appropriate Microsoft reviewer.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/02-projects/pull-request-pjm-comments.png&quot; alt=&quot;Pull request with project manager's comments.&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;../assets/images/02-projects/pull-request-pjm-comments.png&quot; alt=&quot;Pull request with project manager's comments.&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Microsoft Reviewer responds with feedback in comments.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;The Microsoft Reviewer responds with feedback in comments.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png&quot; alt=&quot;Pull request with Microsoft reviewer's response to project manager comments.&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
+    &lt;p&gt;&lt;img src=&quot;../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png&quot; alt=&quot;Pull request with Microsoft reviewer's response to project manager comments.&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;The PjM resolves the issues raised in the Microsoft reviewer’s comments.&lt;/li&gt;
   &lt;li&gt;The PjM comments and adds “#sign-off” in comments in the pull request.&lt;/li&gt;
 &lt;/ol&gt;
@@ -467,7 +466,7 @@
 &lt;div class=&quot;paginator&quot;&gt;
     &lt;p&gt;
         
-        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/mls-responsibilities.html&quot; role=&quot;button&quot;&gt;&amp;#8672;&amp;nbsp;Microlearning Specialist responsibilites&lt;/a&gt;
+        &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/people/mls.html&quot; role=&quot;button&quot;&gt;&amp;#8672;&amp;nbsp;MLS responsibilites&lt;/a&gt;
         
     &lt;/p&gt;
     &lt;p&gt;
@@ -475,4 +474,4 @@
         &lt;a class=&quot;btn btn-primary&quot; href=&quot;/onboard-docs/projects/content-development-tools.html&quot; role=&quot;button&quot;&gt;Content-development tools&amp;nbsp;&amp;#8674;&lt;/a&gt;
         
     &lt;/p&gt;
-&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="projects" /><summary type="html">The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” projects.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>kcarlson</name></author><category term="projects" /><summary type="html">The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” microlearning projects.</summary></entry></feed>

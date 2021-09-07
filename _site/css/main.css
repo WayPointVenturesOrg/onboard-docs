@@ -160,3 +160,7 @@ hr {
     color: grey;
 }
 /* end-customised */
+/*Karin's additions start here */
+
+h4, h5 {font-weight: bold;}
+h4 {font-size: 120%;}
