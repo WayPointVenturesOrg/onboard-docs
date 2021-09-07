@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Typical microlearning project information 
+title: Microlearning project info 
 subtitle:
 description: An overview of the stages in a microlearning module-creation project
 author: kcarlson
@@ -11,11 +11,11 @@ position-in-category: 1
 video_url: "none"
 ---
 
-The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” projects.
+The exact scope and details of every microlearning development project is unique in terms of the exact scope and details. However, there are certain similarities between most projects. Here are some details about “typical” microlearning projects.
 
 ## Project duration
 
-Project duration can vary drastically based on module type, volume, and customer needs. A ballpark estimate for a “typical” project is between eight and 16 weeks. Your involvement will vary depending on the project’s type and size and your specific role. *Contact your Project Manager (PjM) for more information.* 
+Project duration can vary drastically based on module type, volume, and customer needs. A ballpark estimate for a “typical” project is between eight and 16 weeks. Your involvement will vary depending on the project’s type and size and your specific role. Contact your Project Manager (PjM) for more information.
 
 Projects start when contracts are signed between Waypoint and its customer. We consider them finished after our detailed reviews and testing processes confirm that content is fully qualified for publishing. A project’s development phase, where content is designed and created, typically starts around the fourth week of a project schedule and lasts between four and six weeks.
 
@@ -38,7 +38,7 @@ This guide focuses on three phases in creating microlearning modules. It covers 
 
 ![The three phases of development: Design, Developing, Publishing](../assets/images/02-projects/3-phases-development.png)
 
-Note: This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information. 
+>**Note:** This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information. 
 
 ## Design
 
@@ -70,8 +70,6 @@ SMEs must use the provided Microsoft Word template to create a module’s design
 
 An approved, detailed Microsoft Word template will be provided to SMEs for use in creating a module’s design document. It contains the correct layout and content that Microsoft expects for a Microlearning module. 
 
-Note: It’s imperative to use the headings and other Word paragraph styles in the template, as they’re required for successfully converting Word files to markdown. 
-
 The template also contains comments that’ll help guide SMEs as they develop microlearning content, particularly with respect to adding the correct content in the proper format. It also contains links to pertinent articles about development and other topics in the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main).
 
 >**Important!** A module’s design *must adhere* to the guidance from the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main). All SMEs and Microlearning Specialists must be familiar with the portions of the guide that apply to all content they create and edit. We recommend that you start by reading the content under [Authoring Guidelines](https://review.docs.microsoft.com/en-us/help/learn/id-guidance?branch=main) section.
@@ -80,7 +78,7 @@ The template also contains comments that’ll help guide SMEs as they develop mi
 
 There are two main review passes for a module’s design doc: the MLS review and the copy-edit pass.
 
-#### MLS review of a module’s design 
+#### MLS review of a module’s design
 
 The MLS performs an instructional-design review on the module’s design to ensure that it aligns with Microsoft Learn Contributor guide guidelines. They also ensure that the content flows well, that the units and modules all have timings that are appropriate, and that the material reflects the learning objectives specified. Additionally, after the MLS review:
 
@@ -88,7 +86,7 @@ The MLS performs an instructional-design review on the module’s design to ensu
 
 - The customer reviews, and provides sign off for, the module design.
 
-##### Design Charette Meeting
+#### Design Charette Meeting
 
 To capture customer feedback, we use a Design Charette Meeting format for each module in the project, as follows:
 
@@ -116,13 +114,13 @@ Here are some important items to note:
 
 - The SME must use the provided Module template in Word to create the module. The Module template contains the required structure and format for the module, and includes helpful notes and links to pertinent portions of the [Microsoft Learn Contributor Guide.](https://review.docs.microsoft.com/en-us/help/learn/?branch=main) Like a module’s design document, the actual module units *must conform* to the Microsoft Learn guidelines. SMEs must use the provided templates and not their own formats.
 
->**Note:** It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown. 
+    >**Note:** It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown. 
 
 - A project’s customer signs off on the completed design document. Therefore, the SME must adhere to that document. Otherwise, a Change Order is required. A PjM must administer all change orders.
 
 - During development, you’ll need to identify the need for any conceptual graphics or demonstration videos, and work with the assigned Multimedia Provider (MP) to create these deliverables.
 
->**Note:** We recommend that you limit your use of screenshots, because they can quickly become out of date.
+    >**Note:** We recommend that you limit your use of screenshots, because they can quickly become out of date.
 
 - For the student “hands on” exercises, the SME determines the exercise steps and chooses one of two environments:
 
@@ -136,13 +134,13 @@ Here are some recommendations to make your content flow and align with Microsoft
 
 - Write with active voice using [Microsoft writing principles](https://review.docs.microsoft.com/en-us/help/contribute/writing-principles?branch=main) and [Style Guide](https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700).
 
-- For exercises or descriptions of steps, use [Microsoft style for procedures](https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=29016). Be vigilant about using the correct full naming convention (on first reference), spelling, and capitalization of all tools, products, components, terms, and UI elements. 
+- For exercises or descriptions of steps, use [Microsoft style for procedures](https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=29016). Be vigilant about using the correct full naming convention (on first reference), spelling, and capitalization of all tools, products, components, terms, and UI elements.
 
-Tip: The SME can take screen captures of the UI as they work in the app or tool. These might help the MLS and CE when they’re conducting their passes, and reviewing procedures and exercise steps.
+    >**Tip:** The SME can take screen captures of the UI as they work in the app or tool. These might help the MLS and CE when they’re conducting their passes, and reviewing procedures and exercise steps.
 
 ### Module reviews
 
-Note: If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation.
+>**Note:** If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation.
 
 #### ID pass
 
@@ -152,7 +150,7 @@ During this step, the MLS reviews the module using instructional-design principl
 
 After the MLS pass is complete, the MLS hands off the module to CE, who performs a line edit of the content, reviewing for grammar, clarity, flow, and writing style and sentence structure, and also determines whether terminology and capitalization are correct for all products, terms, components, tool, and similar. The CE also helps tighten sentence structure, as complex sentences can result in low Acrolinx scores (successful publication is contingent on sufficient Acrolinx scores). CE also runs the FindWords macro and Editor tool on all content to ensure it’s compliant and correct, and uses track changes and comments to conduct their edits. Once the CE finishes their pass, they submit their edited content to the MLS. The MLS resolves or rejects the tracking, and may ask the SME questions to clarify the content.
 
-#### Create a branch off the master
+### Create a branch off the master
 
 In GitHub, the MLS creates an MLS branch off the master to use for the module. One branch is made per module. The MLS can create this branch through a browser in GitHub or [in Visual Studio Code (VSC](https://waypointventures.github.io/docs/branches/new-branch.html)). 
 
@@ -204,7 +202,7 @@ The Acrolinx program scans all markdown and yaml files and then provides a detai
 
 >**Note:** Please review all Acrolinx results, even if a file has a score above 80, to determine whether it’s flagged any spelling errors. If spelling errors are by design, such as a product name or code snippet, the PjM should make a note to that effect in the “#sign-off” comment during the publication phase. 
 
-![Example of an Acrolinx scorecard.](../../assets/images/02-projects/acrolinx-scorecard.png)
+![Example of an Acrolinx scorecard.](../assets/images/02-projects/acrolinx-scorecard.png)
 
 >**Hint:** To see details about the score for a particular file, select **link** in the **Scorecard** column.
 
@@ -216,7 +214,7 @@ This automated check determines whether files are working correctly together to 
 
 - To preview the module as it will look in its published form, select the **View** link for the index.yml file. This will open the first page in the course. Selecting the **View** link for another page will open that page.
 
-![Validation (build) status report.](../../assets/images/02-projects/validation-status.png)
+![Validation (build) status report.](../assets/images/02-projects/validation-status.png)
 
 The MLS checks the automated build reports and ensures that all content can publish without errors.
 
@@ -229,11 +227,11 @@ Once all units of a module have an Acrolinx score of 80 or higher and pass all b
 1. The PjM adds “#sign-off” to the comments in the pull request.
 2. The pull request gets assigned to the appropriate Microsoft reviewer.
 
-![Pull request with project manager's comments.](../../assets/images/02-projects/pull-request-pjm-comments.png)
+    ![Pull request with project manager's comments.](../assets/images/02-projects/pull-request-pjm-comments.png)
 
 3. The Microsoft Reviewer responds with feedback in comments.
 
-![Pull request with Microsoft reviewer's response to project manager comments.](../../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png)
+    ![Pull request with Microsoft reviewer's response to project manager comments.](../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png)
 
 4. The PjM resolves the issues raised in the Microsoft reviewer’s comments.
 5. The PjM comments and adds “#sign-off” in comments in the pull request.
