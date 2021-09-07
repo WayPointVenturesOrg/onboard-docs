@@ -6,7 +6,7 @@ description: A guide to technology and tools needed for module development
 author: kcarlson
 date: 09 Sept 2021
 post-number: 2.2
-category: 02-projects
+category: projects
 position-in-category: 2
 video_url: "none"
 ---

@@ -6,7 +6,7 @@ description: A guide to roles on a project team
 author: kcarlson
 date: 09 Sept 2021
 post-number: 1.1
-category: 01-people
+category: people
 position-in-category: 1
 ---
 

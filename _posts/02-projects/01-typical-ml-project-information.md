@@ -6,7 +6,7 @@ description: An overview of the stages in a microlearning module-creation projec
 author: kcarlson
 date: 09 Sept 2021
 post-number: 2.1
-category: 02-projects
+category: projects
 position-in-category: 1
 video_url: "none"
 ---
