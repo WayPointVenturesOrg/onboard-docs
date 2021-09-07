@@ -1,94 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width">
-
-        <title>WayPoint Ventures : Welcome to Waypoint</title>
-        <meta name="description" content="Onboarding documentation">
-
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="/onboard-docs/css/syntax.css">
-        <link rel="stylesheet" href="/onboard-docs/css/main.css">
-    </head>
-    <body>
-
-        <div class="container">
-            <div class="row">
-                <div id="header" class="col-sm-12">
-                    <img class="logo" src="/onboard-docs/assets/images/logo.png" alt="WayPoint Ventures logo">
-<h4><a class="brand" href="/onboard-docs/"></a>
-    <small>Onboarding documentation</small>
-</h4>
-
-                </div>
-            </div>
-
-            <div class="row">
-                
-                
-                    <div id="navigation" class="col-sm-3">
-                        <ul class="nav nav-list">
-    
-        <li><a class="nav-active" href="/onboard-docs/">Welcome</a></li>  
-    
-
-    
-        
-        
-
-        
-            
-                <li class="nav-header">People</li>
-                <!-- <li class="divider">___</li> -->
-            
-
-            
-                <li data-order="3"><a href="/onboard-docs/people/mls-responsibilities.html">Microlearning Specialist responsibilites</a></li>
-            
-        
-            
-
-            
-                <li data-order="2"><a href="/onboard-docs/people/sme-responsibilities.html">Subject Matter Expert responsibilities</a></li>
-            
-        
-            
-
-            
-                <li data-order="1"><a href="/onboard-docs/people/who-is-who.html">Who's who on the team</a></li>
-            
-        
-    
-        
-        
-
-        
-            
-                <li class="nav-header">Projects</li>
-                <!-- <li class="divider">___</li> -->
-            
-
-            
-                <li data-order="2"><a href="/onboard-docs/projects/content-development-tools.html">Content-development tools</a></li>
-            
-        
-            
-
-            
-                <li data-order="1"><a href="/onboard-docs/projects/typical-ml-project-information.html">Typical microlearning project information</a></li>
-            
-        
-    
-<!-- List additional links. It is recommended to add a divider
-    e.g. <li class="divider"></li> first to break up the content. -->
-</ul>
-
-                    </div>
-
-                    <div id="content" class="col-sm-9">
-                        <h1 id="welcome-to-waypoint">Welcome to Waypoint!</h1>
+I".<h1 id="welcome-to-waypoint">Welcome to Waypoint!</h1>
 
 <p>Welcome to Waypoint Ventures! We’re glad you’ve joined our team.</p>
 
@@ -151,76 +61,14 @@
   <li>OneNote, where you’ll find templates for emails, project schedules, meeting notes, and other important content for your project. Contact your Project Manager (PjM) for more information.</li>
 </ul>
 
-                    </div>
-                
-            </div>
+<hr />
 
-            
-
-            <div class="row">
-                <div id="footer" class="col-sm-12">
-                    Documentation for <a href="https://waypointventuresorg.github.io/onboard-docs/">WayPoint Ventures</a>
-
-                </div>
-            </div>
-        </div>
-
-        <script>
-            function orderNav() {
-                var list,
-                    section,
-                    header,
-                    sections = [],
-                    lists = {},
-                    headers = {};
-
-                var navUl = document.querySelectorAll('#navigation ul')[0],
-                    navLis = document.querySelectorAll('#navigation ul li');
-
-                if (!navUl) return;
-
-                for (var i = 0; i < navLis.length; i++) {
-                    var order, li = navLis[i];
-
-                    if (li.classList.contains('nav-header')) {
-                        section = li.textContent || li.innerText;
-                        sections.push(section);
-                        headers[section] = li;
-                        continue;
-                    }
-
-                    if (!lists[section]) {
-                        lists[section] = [];
-                    }
-
-                    order = parseFloat(li.getAttribute('data-order'))
-                    lists[section].push([order, li]);
-                }
-
-                for (var i = 0; i < sections.length; i++) {
-                    section = sections[i];
-                    list = lists[section].sort(function(a, b) {
-                        return a[0] - b[0];
-                    });
-
-                    if (header = headers[section]) {
-                        navUl.appendChild(header);
-                    }
-                    for (var j = 0; j < list.length; j++) {
-                        navUl.appendChild(list[j][1]);
-                    }
-                }
-            }
-
-            if (document.querySelectorAll) orderNav();
-        </script>
+<div class="paginator">
+    <p>
         
-        <!-- back-to-top -->
-        <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-        <script>addBackToTop({
-                diameter: 56,
-                backgroundColor: 'rgb(51, 122, 183)',
-                textColor: '#fff'
-            })</script>
-    </body>
-</html>
+    </p>
+    <p>
+        
+    </p>
+</div>
+:ET
