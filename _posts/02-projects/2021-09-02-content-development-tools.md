@@ -13,14 +13,14 @@ video_url: "none"
 
 To author or edit a course, SME Writers (SMEs), Instructional Designers (IDs), Microlearning Specialists (MLS), and others who write or edit content need to install and use several specific tools.
 
-## Required tools
+## Tools you will need
 
 Tools you will need include:
 
 - Microsoft Word. You must be comfortable using Track Changes and comments within Word, and you also must be comfortable using built-in heading and paragraph-tag styles. You also might need to install and use specific templates. 
 - Microsoft Edge. We recommend that you use Edge Chromium for Corpnet-accessed content.
 
-## Other tools
+## Tools you might need
 
 Depending on your job role and the particular project you’re working on, you might also need to install:
 
@@ -32,7 +32,7 @@ Depending on your job role and the particular project you’re working on, you m
 - Microsoft PowerPoint or Visio. You can use these programs to create mockups of conceptual graphics and diagrams.
 - An image editor such as Snagit or Paint 3D. You can use these tools to crop and apply other edits to screenshots, such as removing personal information.
 
-## Become familiar with these tools
+## Tools with which you should be familiar
 
 You should have familiarity using:
 

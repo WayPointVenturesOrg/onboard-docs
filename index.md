@@ -38,10 +38,9 @@ We recommend that you use:
 
 - [Meetings](https://support.microsoft.com/en-us/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67) for when you want a more formal session in which team members connect in an online gathering to discuss an agenda and reach a documented outcome.
 
-    >**Note:** Create all meetings in Outlook, and use the [Scheduling Assistant](https://support.microsoft.com/en-us/office/use-the-scheduling-assistant-and-room-finder-for-meetings-in-outlook-2e00ac07-cef1-47c8-9b99-77372434d3fa) and other Outlook tools to ensure those people who need to be at your meeting are available. Be sure to select the **Teams Meeting** button on the ribbon. It generates a Teams meeting link that appears in the meeting-invite email, so you and other participants can select it and join the meeting in Teams.
+    >**Note:** Create all meetings in Outlook, and use the [Scheduling Assistant](https://support.microsoft.com/office/use-the-scheduling-assistant-and-room-finder-for-meetings-in-outlook-2e00ac07-cef1-47c8-9b99-77372434d3fa) and other Outlook tools to ensure those people who need to be at your meeting are available. Be sure to select the **Teams Meeting** button on the ribbon. It generates a Teams meeting link that appears in the meeting-invite email, so you and other participants can select it and join the meeting in Teams.
 
     ![The Teams Meeting button](assets/images/02-projects/teams-meeting-button.png)
-
 
 ### Microsoft Corpnet credentials
 
@@ -54,9 +53,9 @@ You’ll use your Corpnet credentials to access restricted Microsoft resources. 
 Here are the storage locations Waypoint uses for information:
 
 - [Waypoint’s intranet portal](https://waypointventures.sharepoint.com/sites/Home/SitePages/MS-Learn-microlearning.aspx) houses our orientation and internal content development and project management instructional materials.
-- [Teams channels](https://support.microsoft.com/en-us/office/work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e) are for internal, project-related materials and conversations.
+- [Teams channels](https://support.microsoft.com/office/work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e) are for internal, project-related materials and conversations.
 
   ![Teams channels](assets/images/02-projects/teams-channels.png)
-- GitHub, Azure DevOps, and [SharePoint](https://support.microsoft.com/en-us/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) are used to share content internally and externally. 
-- Microsoft Project Online (or “Project Server”) stores in-flight project files and reports. The files are located at [https://waypointventures.sharepoint.com/sites/pwa/Projects.aspx](https://waypointventures.sharepoint.com/sites/pwa/Projects.aspx). 
+- GitHub, Azure DevOps, and [SharePoint](https://support.microsoft.com/office/introduction-to-libraries-7d4221d9-8fb9-40d5-8441-2374c84b5e26) are used to share content internally and externally. 
+- Microsoft Project Online (or “Project Server”) stores in-flight project files and reports. The files are located at [https://waypointventures.sharepoint.com/sites/pwa/Projects.aspx](https://waypointventures.sharepoint.com/sites/pwa/Projects.aspx).
 - OneNote, where you’ll find templates for emails, project schedules, meeting notes, and other important content for your project. Contact your Project Manager (PjM) for more information.
