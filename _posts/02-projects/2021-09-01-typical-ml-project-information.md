@@ -38,7 +38,7 @@ This guide focuses on three phases in creating microlearning modules. It covers 
 
 ![The three phases of development: Design, Developing, Publishing](../assets/images/02-projects/3-phases-development.png)
 
->**Note:** This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information. 
+>**Note:** This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information.
 
 ## Design
 
@@ -60,7 +60,7 @@ Creating the Module design document is the first step in module development. A d
 
 - Descriptions of the units and exercises. 
 
-A design document gives a project’s Subject Matter Experts and Microlearning Specialists an opportunity to examine the flow of material and each component’s timing, to help determine whether the content adequately addresses the specified learning objectives. 
+A design document gives a project’s Subject Matter Experts and Microlearning Specialists an opportunity to examine the flow of material and each component’s timing, to help determine whether the content adequately addresses the specified learning objectives.
 
 >**Note:** An MLS often will assist a SME with creating a module’s design so that it fulfills our statement of work and meets requisite delivery standards.
 
@@ -124,9 +124,8 @@ Here are some important items to note:
 
 - For the student “hands on” exercises, the SME determines the exercise steps and chooses one of two environments:
 
-	1. A Microsoft Azure sandbox.
-
-	2. A Bring-Your-Own-Subscription (BYOS), where students use their own Azure account.
+    1. A Microsoft Azure sandbox.
+    1. A Bring-Your-Own-Subscription (BYOS), where students use their own Azure account.
 
 #### Writing style
 
@@ -157,9 +156,7 @@ In GitHub, the MLS creates an MLS branch off the master to use for the module. O
 The MLS then [invites people with the following roles as collaborator](https://waypointventures-my.sharepoint.com/personal/karinca_waypoint_ws/Documents/Invite collaborator)s:
 
 - SME
-
 - PjM
-
 - CE
 
 For detailed information about using VSC and GitHub, please refer to [Waypoint Ventures documentation](https://waypointventures.github.io/docs/add-content/syntax.html). Keep in mind that these instructions may suggest procedures that don’t align with microlearning. Contact your PjM if you have questions.
@@ -170,7 +167,7 @@ Prior to Compliance testing, the MLS moves the module files to GitHub.
 
 Most of the development process happens in Word, so authors and reviewers can take advantage of Word’s excellent commenting and tracking features. Just before pre-publishing tests, the MLS uses Typora to convert the module Word files to markdown. 
 
-The MLS opens the markdown files in VSC and performs a global review and conducts remediation, including fixing bulleted lists and checking for correct syntax including headings, tables, images, and links. The MLS then uploads the markdown files to GitHub. 
+The MLS opens the markdown files in VSC and performs a global review and conducts remediation, including fixing bulleted lists and checking for correct syntax including headings, tables, images, and links. The MLS then uploads the markdown files to GitHub.
 
 ### Compliance testing
 
@@ -180,11 +177,9 @@ The MLS performs the Compliance testing pass, where they assess the content for 
 
 ### MLS creates a pull request from the MLS branch
 
-After the files are uploaded to GitHub, the MLS creates a [pull request](https://waypointventures.github.io/docs/workflow/terminology.html#using-prs) to merge their branch back into the master branch. 
+After the files are uploaded to GitHub, the MLS creates a [pull request](https://waypointventures.github.io/docs/workflow/terminology.html#using-prs) to merge their branch back into the master branch. Read more about [pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-> **Important!** The MLS *should never merge* their branch into the master branch. The PjM performs this action just prior to publication. 
-
-Read more about [pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+> **Important!** The MLS *should never merge* their branch into the master branch. The PjM performs this action just prior to publication.
 
 ### Quality tests
 
