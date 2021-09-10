@@ -1,0 +1,71 @@
+---
+layout: page
+title: The development phase
+subtitle:
+description: An overview of the development phase of a microlearning module-creation project
+author: kcarlson
+date: 09 Sept 2021
+post-number: 3.3
+category: project-info
+position-in-category: 3
+video_url: "none"
+---
+
+## SME creates module content
+
+In this phase, the SME writes the module content, requests conceptual graphics from our Media Production team (MPs), and develops exercise steps and/or creates a video concept document. 
+
+>**Note:** A *video concept document* is a 300-words-or-less “directorial guidance” document provided to Microsoft to obtain a desktop demonstration video with captions. 
+
+Here are some important items to note:
+
+- The SME must use the provided Module template in Word to create the module. The Module template contains the required structure and format for the module, and includes helpful notes and links to pertinent portions of the [Microsoft Learn Contributor Guide.](https://review.docs.microsoft.com/en-us/help/learn/?branch=main) Like a module’s design document, the actual module units *must conform* to the Microsoft Learn guidelines. SMEs must use the provided templates and not their own formats.
+
+    >**Note:** It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown. 
+
+- A project’s customer signs off on the completed design document. Therefore, the SME must adhere to that document. Otherwise, a Change Order is required. A PjM must administer all change orders.
+
+- During development, you’ll need to identify the need for any conceptual graphics or demonstration videos, and work with the assigned Multimedia Provider (MP) to create these deliverables.
+
+    >**Note:** We recommend that you limit your use of screenshots, because they can quickly become out of date.
+
+- For the student “hands on” exercises, the SME determines the exercise steps and chooses one of two environments:
+
+    1. A Microsoft Azure sandbox.
+    1. A Bring-Your-Own-Subscription (BYOS), where students use their own Azure account.
+
+### Writing style
+
+Here are some recommendations to make your content flow and align with Microsoft and Learn style standards:
+
+- Write with active voice using [Microsoft writing principles](https://review.docs.microsoft.com/en-us/help/contribute/writing-principles?branch=main) and [Style Guide](https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700).
+
+- For exercises or descriptions of steps, use [Microsoft style for procedures](https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=29016). Be vigilant about using the correct full naming convention (on first reference), spelling, and capitalization of all tools, products, components, terms, and UI elements.
+
+    >**Tip:** The SME can take screen captures of the UI as they work in the app or tool. These might help the MLS and CE when they’re conducting their passes, and reviewing procedures and exercise steps.
+
+## Module reviews
+
+>**Note:** If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation.
+
+### ID pass
+
+During this step, the MLS reviews the module using instructional-design principles to guide their evaluation. They’re reviewing for clarity of writing, terminology, correct use of Microsoft style, correct and concise exercise steps, and other items. The SME needs to be available during the ID pass for questions and clarifications, such as with respect to terminology spelling and capitalization or procedural steps.
+
+### Copy Edit pass
+
+After the MLS pass is complete, the MLS hands off the module to CE, who performs a line edit of the content, reviewing for grammar, clarity, flow, and writing style and sentence structure, and also determines whether terminology and capitalization are correct for all products, terms, components, tool, and similar. The CE also helps tighten sentence structure, as complex sentences can result in low Acrolinx scores (successful publication is contingent on sufficient Acrolinx scores). CE also runs the FindWords macro and Editor tool on all content to ensure it’s compliant and correct, and uses track changes and comments to conduct their edits. Once the CE finishes their pass, they submit their edited content to the MLS. The MLS resolves or rejects the tracking, and may ask the SME questions to clarify the content.
+
+## Create a branch off the master
+
+In GitHub, the MLS creates an MLS branch off the master to use for the module. One branch is made per module. The MLS can create this branch through a browser in GitHub or [in Visual Studio Code (VSC](https://waypointventures.github.io/docs/branches/new-branch.html)). 
+
+The MLS then [invites people with the following roles as collaborator](https://waypointventures-my.sharepoint.com/personal/karinca_waypoint_ws/Documents/Invite collaborator)s:
+
+- SME
+- PjM
+- CE
+
+For detailed information about using VSC and GitHub, please refer to [Waypoint Ventures documentation](https://waypointventures.github.io/docs/add-content/syntax.html). Keep in mind that these instructions may suggest procedures that don’t align with microlearning. Contact your PjM if you have questions.
+
+{% include paginator.html %}
