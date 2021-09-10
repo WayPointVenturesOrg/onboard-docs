@@ -1,0 +1,35 @@
+I"�<h2 id="publishing">Publishing</h2>
+
+<p>Once all units of a module have an Acrolinx score of 80 or higher and pass all build-validation tests, the MLS hands off the module to the PjM, who then submits it to Microsoft for their publishing process:</p>
+
+<ol>
+  <li>The PjM adds “#sign-off” to the comments in the pull request.</li>
+  <li>
+    <p>The pull request gets assigned to the appropriate Microsoft reviewer.</p>
+
+    <p><img src="../assets/images/02-projects/pull-request-pjm-comments.png" alt="Pull request with project manager's comments." /></p>
+  </li>
+  <li>
+    <p>The Microsoft Reviewer responds with feedback in comments.</p>
+
+    <p><img src="../assets/images/02-projects/ms-reviewer-respond-pjm-comments.png" alt="Pull request with Microsoft reviewer's response to project manager comments." /></p>
+  </li>
+  <li>The PjM resolves the issues raised in the Microsoft reviewer’s comments.</li>
+  <li>The PjM comments and adds “#sign-off” in comments in the pull request.</li>
+</ol>
+
+<hr />
+
+<div class="paginator">
+    <p>
+        
+        <a class="btn btn-primary" href="/onboard-docs/project-info/the-development-phase.html" role="button">&#8672;&nbsp;The development phase</a>
+        
+    </p>
+    <p>
+        
+        <a class="btn btn-primary" href="/onboard-docs/create-ml-modules/content-development-tools.html" role="button">Content-development tools&nbsp;&#8674;</a>
+        
+    </p>
+</div>
+:ET
