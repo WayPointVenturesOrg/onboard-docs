@@ -10,7 +10,7 @@ category: people
 position-in-category: 2
 ---
 
-This page is a high-level look at the responsibilities and tasks of the SME Writer (SME) role. For a more detailed explanation of authoring microlearning, refer to  [Authoring guidelines and services for Microsoft Learn](https://review.docs.microsoft.com/en-us/help/learn/id-guidance?branch=main). 
+This page is a high-level look at the responsibilities and tasks of the SME Writer (SME) role. For a more detailed explanation of authoring microlearning, refer to  [Authoring guidelines and services for Microsoft Learn](https://review.docs.microsoft.com/en-us/help/learn/id-guidance?branch=main).
 
 Also read:
 
@@ -44,7 +44,7 @@ As a SME, you are expected to perform the following tasks:
 
   - During a project, even if you think you’re not directly involved in the current process, be available for questions and clarifications. This means using the tools that Waypoint uses (Teams and Outlook) and having them “on.”
 
-**Tip:** You might find it useful to install these apps on your phone so you can monitor messages and email.
+    > **Tip:** You might find it useful to install these apps on your phone so you can monitor messages and email.
 
 - If you anticipate any absences, tell the PjM as soon as possible.
 
