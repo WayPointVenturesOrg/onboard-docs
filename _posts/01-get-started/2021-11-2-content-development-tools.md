@@ -4,10 +4,10 @@ title: Content-development tools
 subtitle:
 description: A guide to technology and tools needed for microlearning module development
 author: kcarlson
-date: 09 Sept 2021
-post-number: 4.1
-category: create-ml-modules
-position-in-category: 1
+date: 2 November 2021
+post-number: 1.2
+category: get-started
+position-in-category: 2
 video_url: "none"
 ---
 
@@ -41,6 +41,8 @@ You should have familiarity using:
 - Familiarity with GitHub, Azure DevOps, and Acrolinx.
 - Microsoft OneNote. You’ll need this primarily to access the Project Book.
 
-    >**Note:** The project book is accessible from Teams, also, although it’s an embedded OneNote file, so understanding how to “get around” in OneNote is helpful.
+    >**Note:** You can access the Project Book in Teams (as depicted in the following screenshot). In Teams, the Project Book is an embedded OneNote file, so understanding how to “get around” in OneNote is helpful.
+
+    ![The Project Book in Teams](../../assets/images/project-book.png)
 
 {% include paginator.html %}

@@ -104,7 +104,7 @@ The Acrolinx program scans all markdown and yaml files and then provides a detai
 
 >**Note:** Please review all Acrolinx results, even if a file has a score above 80, to determine whether it’s flagged any spelling errors. If spelling errors are by design, such as a product name or code snippet, the PjM should make a note to that effect in the “#sign-off” comment during the publication phase. 
 
-![Example of an Acrolinx scorecard.](../assets/images/02-projects/acrolinx-scorecard.png)
+![Example of an Acrolinx scorecard.](../../assets/images/acrolinx-scorecard.png)
 
 >**Hint:** To see details about the score for a particular file, select **link** in the **Scorecard** column.
 
@@ -116,7 +116,7 @@ This automated check determines whether files are working correctly together to 
 
 - To preview the module as it will look in its published form, select the **View** link for the index.yml file. This will open the first page in the course. Selecting the **View** link for another page will open that page.
 
-![Validation (build) status report.](../assets/images/02-projects/validation-status.png)
+![Validation (build) status report.](../../assets/images/validation-status.png)
 
 The MLS checks the automated build reports and ensures that all content can publish without errors.
 
