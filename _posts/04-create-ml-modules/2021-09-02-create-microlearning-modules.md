@@ -11,7 +11,8 @@ position-in-category: 2
 video_url: "none"
 ---
 
-Before you begin, make sure you have the [content development tools](2021-11-2-content-development-tools.md) you will need. 
+> [!IMPORTANT]
+> Before you begin, make sure you have the [content development tools]({{site.baseurl}}/get-started/content-development-tools.html) you will need. 
 
 
 TBD
