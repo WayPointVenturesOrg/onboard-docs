@@ -61,7 +61,7 @@ What the alerts look like in markdown:
 
 What the alerts look like in the Learn module:
 
-:::image type="content" source="../../assets/images/alerts.png" alt-text="Screenshot of alerts in markdown.":::
+:::image type="content" source="../../assets/images/preview-alerts.png" alt-text="Screenshot of alerts in markdown.":::
 
 Please refer to [Add alerts](https://review.docs.microsoft.com/en-us/help/learn/unit-add-alerts?branch=main).
 
