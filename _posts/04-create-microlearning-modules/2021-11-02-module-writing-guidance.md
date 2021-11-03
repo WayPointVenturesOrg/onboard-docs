@@ -6,7 +6,7 @@ description: Guidance to follow when you write a microlearning module
 author: kcarlson
 date: 01 November 2021
 post-number: 4.2
-category:  create-ml-modules
+category:  create-microlearning-modules
 position-in-category: 2
 video_url: "none"
 ---

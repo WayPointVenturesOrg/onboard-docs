@@ -6,7 +6,7 @@ description: An overview of the content to include when you write a module
 author: kcarlson
 date: 02 November 2021
 post-number: 4.1
-category:  create-ml-modules
+category:  create-microlearning-modules
 position-in-category: 2
 video_url: "none"
 ---
