@@ -6,12 +6,12 @@ description: An overview of the content to include when you write a module
 author: kcarlson
 date: 02 November 2021
 post-number: 4.1
-category:  create-ml-modules
+category:  create-microlearning-modules
 position-in-category: 2
 video_url: "none"
 ---
 
-This documentation is intended to give you a high-level understanding of how Microlearning courses are different than ILT or other types of courses you’ve worked on in the past. It details form factors and guidance taken largely from the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main). Please also follow the links throughout this material to read the specific pages from the [Contributor Guide ](https://review.docs.microsoft.com/en-us/help/learn/?branch=main)for more specific guidance.
+This documentation is intended to give you a high-level understanding of how microlearning courses are different than ILT or other types of courses you’ve worked on in the past. It details form factors and guidance taken largely from the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main). Please also follow the links throughout this material to read the specific pages from the [Contributor Guide ](https://review.docs.microsoft.com/en-us/help/learn/?branch=main)for more specific guidance.
 
 # Module content overview
 
