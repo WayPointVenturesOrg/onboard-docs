@@ -1,14 +1,19 @@
 .markdownlint.json
 .vscode
 
-# Mac Desktop Services Store
+# Mac desktop services store
 .DS_Store
 
 # Windows image file cache
 Thumbs.db
 
-# Folder config file
+# Windows folder config file
 Desktop.ini
 
-# Folder for Jekyll generated HTML
+# Jekyll HTML and cache
 /_site/
+_site/
+_site
+.jekyll-metadata
+*-cache/
+
