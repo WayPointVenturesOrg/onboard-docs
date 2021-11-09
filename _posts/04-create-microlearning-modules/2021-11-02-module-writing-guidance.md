@@ -13,11 +13,18 @@ video_url: "none"
 
 This documentation is intended to give you a high-level understanding of how microlearning courses are different than ILT or other types of courses you’ve worked on in the past. It details form factors and guidance taken largely from the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. For more specific guidance, follow the links throughout this material to specific pages from the  <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Contributor Guide ![external link](../assets/images/extlink.png)</a>.
 
-## Content development tools
+This page contains:
+
+- <a href="#contentdev">Content development tools</a>
+- <a href="#style">Microlearning writing style</a>
+- <a href="#specific">Writing guidance for specific content</a>
+- <a href="#references">References</a>
+
+## Content development tools<a name="contentdev"></a>
 
 Before you begin writing a module, make sure you have the [content development tools]({{site.baseurl}}/get-started/content-development-tools.html) you will need.
 
-## Microlearning writing style
+## Microlearning writing style<a name="style"></a>
 
 This section details some expectations for writing which are particular to Microsoft and/or Microlearning.
 
@@ -105,15 +112,15 @@ Complex images should be explained in the body of the text, not in the alt-text.
 
 >**Important:** Remove or replace any personally-identifying information from screenshots. In the past, it was allowable to blur this information, but the current requirement is that the information be removed or replaced with fictitious names and information.
 
-## Writing guidance for specific content
+## Writing guidance for specific content<a name="specific"></a>
 
-### Notes and tips
+### Alerts
 
-Use notes to convey tidbits of tangential information or warnings. You can use note, tip, important, caution, and warning. 
+Use alerts to convey tidbits of tangential information or warnings. You can use note, tip, important, caution, and warning. 
 
 > For more information, refer to <a href="https://review.docs.microsoft.com/help/contribute/markdown-reference?branch=main" target="_blank">Docs Markdown reference ![external link](../assets/images/extlink.png)</a>.
 
-![img](file:///C:/Users/Karin/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)***
+![preview of alerts](../assets/images/preview-alerts.png)
 
 ### Videos
 
@@ -135,7 +142,7 @@ Red Tiger will be replaced with a different platform by the end of quarter 2, 20
 
 Code samples should include multiple programming languages. If you have coding exercises, they should ask the learner to write some original code (that is, not solely cut-and-paste).
 
-![img](file:///C:/Users/Karin/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)
+![code sample](../assets/images/code-sample.png)
 
 ### Publishing
 
@@ -155,7 +162,7 @@ Each published file must have a minimum Acrolinx score of 80. To help achieve a 
 
 Links must be to an approved source, which is typically Microsoft or Azure. 
 
-Only include links in the **Summary** unit; don’t include them in any other unit unless they are needed to set up an environment for an exercise. 
+Only include links in the **Summary** unit. Don’t include them in any other unit unless they are needed to set up an environment for an exercise. 
 
 ### Definitions of terminology
 
@@ -169,7 +176,7 @@ Individual and company fictitious names used in examples or exercise must be tak
 
 In general, avoid references to third-party products, websites, logos, etc., in both text and graphics. Contact your PjM for specific information about the module you’re working on.
 
-> For more information, refer to <a href="https://review.docs.microsoft.com/help/contribute/contribute-legal-guidelines?branch=main" target="_blank">general legal guidance ![external link](../assets/images/extlink.png)</a>.
+> For more information, refer to <a href="https://review.docs.microsoft.com/help/contribute/contribute-legal-guidelines?branch=main" target="_blank">Legal guidelines ![external link](../assets/images/extlink.png)</a>.
 
 #### Third-party references that are not okay to use
 
@@ -195,9 +202,9 @@ It’s okay to use third-party references when:
 
 - A hyperlink to an approved Microsoft website uses the product name in the link and/or the webpage title.
 
-## Further information
+## References<a name="#references"></a>
 
-- <a href="https://review.docs.microsoft.com/help/learn/id-guidance-checklist?branch=main" target="_blank">Detailed guidelines quick reference ![external link](../assets/images/extlink.png)</a>
+- Condensed version of all the detailed guidelines for Learn modules: <a href="https://review.docs.microsoft.com/help/learn/id-guidance-checklist?branch=main" target="_blank">Detailed guidelines quick reference ![external link](../assets/images/extlink.png)</a>
 
 - <a href="https://review.docs.microsoft.com/help/learn/content-requirements?branch=main" target="_blank">Microsoft Learn deliverable requirements ![external link](../assets/images/extlink.png)</a>
 
