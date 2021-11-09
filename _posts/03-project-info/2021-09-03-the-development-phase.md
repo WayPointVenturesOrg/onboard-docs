@@ -10,116 +10,113 @@ category: project-info
 position-in-category: 3
 video_url: "none"
 ---
+This page contains:
 
-## SME creates module content
+- <a href="#creation">SME creates module content</a>
+- <a href="#reviews">Module reviews</a>
+- <a href="#github">Work in GitHub</a>
+- <a href="#autochecks">Automatic checks</a>
 
-In this phase, the SME writes the module content, requests conceptual graphics from our Media Production team (MPs), and develops exercise steps and/or creates a video concept document. 
+## SME creates module content<a name="creation"></a>
+
+In this phase, the SME Writer (SME) writes the module content, requests conceptual graphics from our Media Production team (MPs), and develops exercise steps and/or creates a video concept document. 
 
 >**Note:** A *video concept document* is a 300-words-or-less “directorial guidance” document provided to Microsoft to obtain a desktop demonstration video with captions. 
 
 Here are some important items to note:
 
-- The SME must use the provided Module template in Word to create the module. The Module template contains the required structure and format for the module, and includes helpful notes and links to pertinent portions of the [Microsoft Learn Contributor Guide.](https://review.docs.microsoft.com/en-us/help/learn/?branch=main) Like a module’s design document, the actual module units *must conform* to the Microsoft Learn guidelines. SMEs must use the provided templates and not their own formats.
+- The MLS or PjM will provide a copy of the template to the SME that is prepared for module development. 
+
+- The SME must use the provided Module template in Word to create the module. The Module template contains the required structure and format for the module, and includes helpful notes and links to pertinent portions of the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. Like a module’s design document, the actual module units *must conform* to the Microsoft Learn guidelines. SMEs must use the provided templates and not their own formats. 
 
     >**Note:** It’s imperative to use the headings and other Word paragraph styles that provided templates use. These are necessary to confirm to Learn requirements and standards, and also enable us to correctly and seamlessly convert Word files to markdown. 
 
 - A project’s customer signs off on the completed design document. Therefore, the SME must adhere to that document. Otherwise, a Change Order is required. A PjM must administer all change orders.
 
-- During development, you’ll need to identify the need for any conceptual graphics or demonstration videos, and work with the assigned Multimedia Provider (MP) to create these deliverables.
+- During development, the SME needs to identify the need for any conceptual graphics or demonstration videos, and work with the assigned Multimedia Provider (MP) to create these deliverables.
 
-    >**Note:** We recommend that you limit your use of screenshots, because they can quickly become out of date.
+    >**Note:** We recommend that use of screenshots be limited. They can quickly become out of date.
 
 - For the student “hands on” exercises, the SME determines the exercise steps and chooses one of two environments:
 
     1. A Microsoft Azure sandbox.
     1. A Bring-Your-Own-Subscription (BYOS), where students use their own Azure account.
 
-### Writing style
+- The SME should write with active voice using <a href="https://review.docs.microsoft.com/help/contribute/writing-principles?branch=main" target="_blank">Microsoft writing principles</a> and <a href="https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700">Style Guide ![external link](../assets/images/extlink.png)</a>.
 
-Here are some recommendations to make your content flow and align with Microsoft and Learn style standards:
+- For exercises or descriptions of steps, the SME should use <a href="https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=29016" target="_blank">Microsoft style for procedures ![external link](../assets/images/extlink.png)</a>. They should be vigilant about using the correct full naming convention (on first reference), spelling, and capitalization of all tools, products, components, terms, and UI elements.
 
-- Write with active voice using [Microsoft writing principles](https://review.docs.microsoft.com/en-us/help/contribute/writing-principles?branch=main) and [Style Guide](https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700).
+## Module reviews<a name="reviews"></a>
 
-- For exercises or descriptions of steps, use [Microsoft style for procedures](https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=29016). Be vigilant about using the correct full naming convention (on first reference), spelling, and capitalization of all tools, products, components, terms, and UI elements.
+After the SME completes writing the module, the module is reviewed by several people. All of the reviews are either performed by, or reviewed by, the Microlearning Specialist (MLS). The SME must be available to the MLS to review changes and provide any needed clarifications.
 
-    >**Tip:** The SME can take screen captures of the UI as they work in the app or tool. These might help the MLS and CE when they’re conducting their passes, and reviewing procedures and exercise steps.
+The first few reviews happen using the Word module document. Then the MLS converts the module to markdown files for several pre-publishing checks.
 
-## Module reviews
+>**Note:** For more information about the review steps that the MLS performs, refer to [MLS responsibilities]({{site.baseurl}}/people/mls.html).
 
 >**Note:** If a module has exercises, the exercise units are sent for Functional Testing. This happens any time after completion of the exercise units and the SME effects all fixes and remediation.
 
-### ID pass
+### Instructional design (ID) pass
 
-During this step, the MLS reviews the module using instructional-design principles to guide their evaluation. They’re reviewing for clarity of writing, terminology, correct use of Microsoft style, correct and concise exercise steps, and other items. The SME needs to be available during the ID pass for questions and clarifications, such as with respect to terminology spelling and capitalization or procedural steps.
+The MLS reviews the module using instructional-design principles to guide their evaluation. The MLS checks the module against the module design to ensure that all planned content is present. They also review the module for clarity of writing, terminology, correct use of Microsoft style, correct and concise exercise steps, and other items. The SME needs to be available to the MLS during the ID pass for questions and clarifications, such as terminology spelling and capitalization or procedural steps.
+
+At this point in the process, the module is in Word, so the MLS uses track changes and comments to conduct their edits. The SME reviews the MLS edits and returns the Word document to the MLS.
+
+>**Note:** In the past, there was a separate Instructional Designer (ID) job role. The ID pass is now performed by the MLS. 
 
 ### Copy Edit pass
 
-After the MLS pass is complete, the MLS hands off the module to CE, who performs a line edit of the content, reviewing for grammar, clarity, flow, and writing style and sentence structure, and also determines whether terminology and capitalization are correct for all products, terms, components, tool, and similar. The CE also helps tighten sentence structure, as complex sentences can result in low Acrolinx scores (successful publication is contingent on sufficient Acrolinx scores). CE also runs the FindWords macro and Editor tool on all content to ensure it’s compliant and correct, and uses track changes and comments to conduct their edits. Once the CE finishes their pass, they submit their edited content to the MLS. The MLS resolves or rejects the tracking, and may ask the SME questions to clarify the content.
+After the ID pass is complete, the MLS hands off the module to the Copy Editor (CE). The CE performs a line edit of the content, reviewing for grammar, clarity, flow, and writing style and sentence structure, and also determines whether terminology and capitalization are correct for all products, terms, components, tool, and similar. The CE also helps tighten sentence structure, as complex sentences can result in low Acrolinx scores (successful publication is contingent on sufficient Acrolinx scores). CE also runs the FindWords macro and Editor tool on all content to ensure it’s compliant and correct.
 
-## Create a branch off the master
+Like the ID pass, the module is in Word, so the CE uses track changes and comments to conduct their edits. Once the CE finishes their pass, they submit their edited content to the MLS. The MLS resolves or rejects the tracking, and may ask the SME questions to clarify the content.
 
-In GitHub, the MLS creates an MLS branch off the master to use for the module. One branch is made per module. The MLS can create this branch through a browser in GitHub or [in Visual Studio Code (VSC](https://waypointventures.github.io/docs/branches/new-branch.html)). 
+### Compliance testing
 
-The MLS then [invites people with the following roles as collaborator](https://waypointventures-my.sharepoint.com/personal/karinca_waypoint_ws/Documents/Invite collaborator)s:
+The MLS performs the Compliance testing pass, where they assess the content for issues in the areas of accessibility, global readiness, licensing, and privacy. The MLS corrects any issues found.
+
+## Work in GitHub<a name="github"></a>
+
+There are two more pre-publishing tests that both require that the module be converted to markdown files and uploaded to GitHub. First, the MLS prepares the location for the module and its supporting files by creating an MLS branch and adding scaffolding. They then use the Word version of the module to create markdown files which they move to GitHub. At this point, the Word module doc is no longer used and the markdown files become the working copy of the module.
+
+### Create a new branch
+
+In GitHub, the MLS creates an MLS branch off the master to use for the module. One branch is made per module. The MLS can create this branch through a browser in GitHub or <a href="https://waypointventures.github.io/docs/branches/new-branch.html" target="_blank">in Visual Studio Code (VSC) ![external link](../assets/images/extlink.png)</a>.
+
+>**Note:** To access the GitHub environment, the MLS must link their v-dash to their GitHub account so as to have the requisite permissions.
+
+The MLS creates folders and supporting .yml files, called *scaffolding*, in the MLS branch. The MLS then invites to the branch as collaborators people with the following roles:
 
 - SME
 - PjM
 - CE
 
-For detailed information about using VSC and GitHub, please refer to [Waypoint Ventures documentation](https://waypointventures.github.io/docs/add-content/syntax.html). Keep in mind that these instructions may suggest procedures that don’t align with microlearning. Contact your PjM if you have questions.
+>**Note:** For more detailed information about any MLS task, refer to [tasks and responsibilities of the MLS]({{site.baseurl}}/people/mls.html).
 
-## Convert content to markdown and move to GitHub
+>**Note:** For detailed information about using VSC and GitHub, please refer to <a href="https://waypointventures.github.io/docs/add-content/syntax.html" target="_blank">Waypoint Ventures documentation ![external link](../assets/images/extlink.png)</a>. Keep in mind that these instructions may suggest procedures that don’t align with microlearning. Contact your PjM if you have questions.
 
-Prior to Compliance testing, the MLS moves the module files to GitHub.
+### Convert content to markdown and move to GitHub
 
-Most of the development process happens in Word, so authors and reviewers can take advantage of Word’s excellent commenting and tracking features. Just before pre-publishing tests, the MLS uses Typora to convert the module Word files to markdown. 
+Most of the development process happens in Word, so authors and reviewers can take advantage of Word’s excellent commenting and tracking features. Just before pre-publishing tests, the MLS uses Typora and the module (a Word file) to create markdown files. The MLS then globally checks and fixes items such as bulleted lists, headings, tables, images, and links, and uploads the markdown files to GitHub. 
 
-The MLS opens the markdown files in VSC and performs a global review and conducts remediation, including fixing bulleted lists and checking for correct syntax including headings, tables, images, and links. The MLS then uploads the markdown files to GitHub.
+> For more information, refer to [Create a markdown file]({{site.baseurl}}/create-microlearning-modules/create-a-markdown-file.html).
 
-## Compliance testing
+### MLS creates a pull request from the MLS branch
 
-The MLS performs the Compliance testing pass, where they assess the content for issues in the areas of accessibility, global readiness, licensing, and privacy. The MLS corrects any issues found.
+After the MLS uploads the markdown files to GitHub, the MLS creates a <a href="https://waypointventures.github.io/docs/workflow/terminology.html#using-prs" target="_blank">pull request ![external link](../assets/images/extlink.png)</a> to merge their branch back into the master branch. 
 
->**Note:** When in doubt, please escalate questions to the Compliance team via your PjM. 
-
-## MLS creates a pull request from the MLS branch
-
-After the files are uploaded to GitHub, the MLS creates a [pull request](https://waypointventures.github.io/docs/workflow/terminology.html#using-prs) to merge their branch back into the master branch. Read more about [pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+> For more information, refer to <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">About pull requests ![external link](../assets/images/extlink.png)</a>.
 
 > **Important!** The MLS *should never merge* their branch into the master branch. The PjM performs this action just prior to publication.
 
-## Quality tests
+### Automatic checks<a name="autochecks"></a>
 
-The MLS performs all content testing in this phase to ensure the module is ready for publication. 
+Once a pull request exists, anytime the files in GitHub are updated, several automatic checks occur to ensure that all content can publish without errors. The automatic checks include:
 
->**Note:** To perform quality tests, the MLS must link their v-dash to their GitHub account so as to have the requisite permissions to perform these steps.
+- An Acrolinx scorecard with a score for each markdown and yaml file
+- A Validation (build) status report 
 
-After the MLS create the pull request (refer to the previous step), anytime files are changed or added to GitHub, such as when you push changes from VSC, several automatic checks occur and are reported via email to the pull request’s owner. The automatic checks include generation of an Acrolinx scorecard with a score for each file (markdown and yaml) and a Validation (build) status, which sent to the MLS as emails.
+The results of these tests are reported through emails to the pull request’s owner (the MLS). The MLS checks the emails for problems and then fixes the appropriate .md or .yml files.
 
-### Acrolinx Scorecards
-
-Acrolinx Scorecards provide detailed information about how your markdown and yaml content meets defined standards and requirements, providing metrics whereby you can improve your Acrolinx scores prior to publication. At a minimum, all Learn content must have a minimum Acrolinx score of 80. However, at Waypoint, we encourage you to strive for a score of 100 for all files.
-
-The Acrolinx program scans all markdown and yaml files and then provides a detailed report about issues it finds, including spelling errors, sentences that are too long or complex (it likes them short and snappy—no compound sentences), word choices (it prefers simple words), and passive construction.
-
->**Note:** Please review all Acrolinx results, even if a file has a score above 80, to determine whether it’s flagged any spelling errors. If spelling errors are by design, such as a product name or code snippet, the PjM should make a note to that effect in the “#sign-off” comment during the publication phase. 
-
-![Example of an Acrolinx scorecard.](../../assets/images/acrolinx-scorecard.png)
-
->**Hint:** To see details about the score for a particular file, select **link** in the **Scorecard** column.
-
-### Validation (build) status
-
-This automated check determines whether files are working correctly together to create a “finished” module. For example, in each .yml file, there’s a path for the corresponding markdown file. If the markdown file is not named correctly, this test returns an error.
-
-- To view a detailed report for any file, click its hyperlink. 
-
-- To preview the module as it will look in its published form, select the **View** link for the index.yml file. This will open the first page in the course. Selecting the **View** link for another page will open that page.
-
-![Validation (build) status report.](../../assets/images/validation-status.png)
-
-The MLS checks the automated build reports and ensures that all content can publish without errors.
-
-The MLS checks the Acrolinx scorecard and Validation (build) status emails for problems and fixes them in the appropriate .md or .yml files.
+> For more information, refer to [automatic checks]({{site.baseurl}}/create-microlearning-modules/automatic-checks.html).
 
 {% include paginator.html %}
