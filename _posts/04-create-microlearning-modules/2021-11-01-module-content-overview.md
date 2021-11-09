@@ -15,23 +15,24 @@ This documentation is intended to give you a high-level understanding of how mic
 
 This page contains:
 
-- 
+- <a href="#info">General module information</a>
+- <a href="#guidelines">Module guidelines</a>
+- <a href="#titles">Module and unit titles</a>
+- <a href="#content">Content of specific units</a>
 
-# Module content overview
-
-## Module types
-
-There are three module types: <a href="https://review.docs.microsoft.com/help/learn/id-guidance-intromodules?branch=main" target="_blank">Introduction to</a>, <a href="https://review.docs.microsoft.com/help/learn/id-guidance-choosemodules?branch=main">Choose</a>, and <a href="https://review.docs.microsoft.com/help/learn/id-guidance-standardmodules?branch=main" target="_blank">Standard</a>. Each module is up to 60 minutes of content.
-
-Standard modules typically have exercises and knowledge checks that support the module learning objectives. 
-
-Note: **Introduction** **to** and **Choose** modules do not have exercises. There is another type of module known as **Intro to Products** that is not addressed in these materials because Microsoft controls all aspects of the development tools.
-
-Modules must be standalone and must be able to exist in multiple Learning Paths. For example, exercises should not span across modules.
-
-## Module overview
+## General module information<a name="info"></a>
 
 Modules are generally designed to be 60 minutes or less and contain between 4 and 10 Units. Units are all related to solving one task and should take no more than 10 minutes for learners to consume. 
+
+>**Note:** Modules must be standalone and must be able to exist in multiple Learning Paths. For example, exercises should not span across modules.
+
+There are three module types: <a href="https://review.docs.microsoft.com/help/learn/id-guidance-intromodules?branch=main" target="_blank">Introduction to</a>, <a href="https://review.docs.microsoft.com/help/learn/id-guidance-choosemodules?branch=main">Choose</a>, and <a href="https://review.docs.microsoft.com/help/learn/id-guidance-standardmodules?branch=main" target="_blank">Standard</a>. 
+
+- Standard modules typically have exercises and knowledge checks that support the module learning objectives. 
+- **Introduction** **to** and **Choose** modules do not have exercises. 
+- There is another type of module known as **Intro to Products** that is not addressed in these materials because Microsoft controls all aspects of the development tools.
+
+## Module guidelines<a name="guidelines"></a>
 
 Module content must follow the guidelines in the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. This document reflects some of these requirements, but the Microsoft-owned <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a> is subject to change, so please check it often for updates.
 
@@ -49,7 +50,7 @@ Guidelines for writing introductions, prerequisites, and learning objectives:
 
 - <a href="https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives" target="_blank">How to write learning objectives ![external link](../assets/images/extlink.png)</a>
 
-### Standard modules
+### Guidelines for Standard modules
 
 <a href="https://review.docs.microsoft.com/help/learn/id-guidance-standardmodules?branch=main" target="_blank">Standard modules ![external link](../assets/images/extlink.png)</a> must follow the core Learn structure: 
 
@@ -59,7 +60,7 @@ Guidelines for writing introductions, prerequisites, and learning objectives:
 
 - Most **Standard** modules include at least one **<a href="Knowledge Check](https://review.docs.microsoft.com/help/learn/id-guidance-knowledge-check?branch=main)** unit. A best practice is to collect all of the questions into a single penultimate unit. However, customers occasionally request an alternative.
 
-### Introduction to modules
+### Guidelines for Introduction to modules
 
 <a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductions?branch=main" target="_blank">Introduction ![external link](../assets/images/extlink.png)</a> modules have regimented guidelines that need to be followed. Your PjM will assist the project team to ensure that content is provided accurately and in the correct format.
 
@@ -83,7 +84,7 @@ In particular, **Introduction to** modules:
     
 > For more information, refer to  <a href="https://review.docs.microsoft.com/help/learn/id-guidance-structure-learning-content?branch=main" target="_blank">How to structure a learning content unit ![external link](../assets/images/extlink.png)</a>.
 
-## Module and unit titles
+## Module and unit titles<a name="titles"></a>
 
 A title (used for learning paths, modules, and units) is a concise statement that captures the terminal learning objective of the content. Also consider:
 
@@ -97,7 +98,7 @@ A title (used for learning paths, modules, and units) is a concise statement tha
 
 > For more information, refer to <a href="https://review.docs.microsoft.com/help/learn/id-guidance-title" target="_blank">How to write titles ![external link](../assets/images/extlink.png)</a>.
 
-## Content of specific units
+## Content of specific units<a name="content"></a>
 
 There is specific guidance for **Introduction**, **Knowledge check**, **Exercise**, and **Summary** units. 
 
