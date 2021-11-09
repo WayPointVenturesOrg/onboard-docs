@@ -19,7 +19,7 @@ navigation: 1
 codeurl: 'https://waypointventuresorg.github.io/onboard-docs/'
 
 # Default categories (in order) to appear in the navigation
-sections: [['get-started','Get started'],['people','People'],['project-info','Project information'],['create-ml-modules','Create microlearning modules']]
+sections: [['get-started','Get started'],['people','People'],['project-info','Project information'],['create-microlearning-modules','Create microlearning modules']]
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Communication, credentials, & info management
+title: Welcome to Waypoint!
 subtitle:
-description: Communication methods, credentials you'll need, and recommended information management
+description: Welcome page
 author: kcarlson
 date: 09 Sept 2021
 post-number: 1.1
@@ -10,8 +10,6 @@ category: get-started
 position-in-category: 1
 video_url: "none"
 ---
-
-# Welcome to Waypoint!
 
 Welcome to Waypoint Ventures! We’re glad you’ve joined our team to help produce microlearning content.
 

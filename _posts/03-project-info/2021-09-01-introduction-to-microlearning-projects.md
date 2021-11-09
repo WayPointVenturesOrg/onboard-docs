@@ -30,11 +30,9 @@ Most projects have six phases:
 5. [Publication]({{site.baseurl}}/project-info/the-publishing-phase.html)
 6. Project closeout
 
-# Overview of the microlearning module-creation process
+This guide focuses on Phase 3 [Design]({{site.baseurl}}/project-info/the-design-phase.html), phase 4 [Development]({{site.baseurl}}/project-info/the-development-phase.html), and phase 5 [Publication]({{site.baseurl}}/project-info/the-publishing-phase.html).
 
-This guide focuses on three phases in creating microlearning modules. It covers phase 3 [Design]({{site.baseurl}}/project-info/the-design-phase.html), phase 4 [Development]({{site.baseurl}}/project-info/the-development-phase.html), and phase 5 [Publication]({{site.baseurl}}/project-info/the-publishing-phase.html).
-
-![The three phases of development: Design, Developing, Publishing](../../assets/images/three-phases-development.png)
+![Three phases of development: Design, Developing, Publishing](../assets/images/three-phases-development.png)
 
 >**Note:** This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information.
 

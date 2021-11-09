@@ -24,7 +24,9 @@ Tools you will need include:
 
 Depending on your job role and the particular project you’re working on, you might also need to install:
 
-- [Visual Studio Code](https://waypointventures.github.io/docs/install/install-vsc.html). VSC is a powerful editing tool that enables you to develop, debug, and collaborate on code. We predominantly use it for creating and editing markdown content. Additionally, note that there are several VSC extensions you’ll need, including the [Docs Authoring Pack](https://waypointventures.github.io/docs/install/install-author-pack.html), Acrolinx for Visual Studio Code, and several docs.microsoft.com and GitHub extensions. For a complete list of extensions, visit [Visual Studio Code](https://waypointventures.github.io/docs/install/install-vsc.html) and follow the links under **Install software** in the menu.
+- <a href="https://waypointventures.github.io/docs/install/install-vsc.html" target="_blank">Visual Studio Code ![external link](../assets/images/extlink.png)</a>. VSC is a powerful editing tool that enables you to develop, debug, and collaborate on code. We predominantly use it for creating and editing markdown content. Additionally, note that there are several VSC extensions you’ll need, including the <a href="https://waypointventures.github.io/docs/install/install-author-pack.html" target="_blank">Docs Authoring Pack ![external link](../assets/images/extlink.png)</a>, Acrolinx for Visual Studio Code, and several docs.microsoft.com and GitHub extensions. 
+ 
+    > For a complete list of extensions, go to <a href="https://waypointventures.github.io/docs/install/install-vsc.html" target="_blank">Install Visual Studio Code ![external link](../assets/images/extlink.png)</a> and follow the links under **Install software** in the menu.
 - Typora. Typora is an editing tool you can use to convert Microsoft Word files to markdown and edit markdown files directly.
 
     >**Note:** Upon customer approval, we do prefer to develop and review microlearning content in Word. Therefore, it’s possible that only the Microlearning Specialist (MLS) will need or use VSC or Typora.
@@ -43,6 +45,6 @@ You should have familiarity using:
 
     >**Note:** You can access the Project Book in Teams (as depicted in the following screenshot). In Teams, the Project Book is an embedded OneNote file, so understanding how to “get around” in OneNote is helpful.
 
-    ![The Project Book in Teams](../../assets/images/project-book.png)
+    ![The Project Book in Teams](../assets/images/project-book.png)
 
 {% include paginator.html %}
