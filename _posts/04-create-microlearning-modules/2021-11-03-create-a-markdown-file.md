@@ -6,7 +6,7 @@ description: Notes on working in the markdown language
 author: kcarlson
 date: 03 Sept 2021
 post-number: 4.3
-category: create-ml-modules
+category: create-microlearning-modules
 position-in-category: 3
 video_url: "none"
 ---
