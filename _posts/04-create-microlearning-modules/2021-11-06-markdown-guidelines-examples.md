@@ -5,13 +5,13 @@ subtitle:
 description: Some guidelines and examples to help you work in the markdown language
 author: kcarlson
 date: 04 Nov 2021
-post-number: 4.4
+post-number: 4.6
 category: create-microlearning-modules
-position-in-category: 4
+position-in-category: 6
 video_url: "none"
 ---
 
-Here are some specific markdown guidelines and examples. This is not a tutorial or exhaustive guide. For more specific guidance and examples, refer to the <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>Waypoint Markdown syntax guide](https://waypointventures.github.io/docs/add-content/syntax.html) and related pages.
+Here are some specific markdown guidelines and examples. This is not a tutorial or exhaustive guide. For more specific guidance and examples, refer to the <a href="https://waypointventures.github.io/docs/add-content/syntax.html" target="_blank">Waypoint Markdown syntax guide ![external link](../assets/images/extlink.png)</a>] and related pages.
 
 ## File names
 
@@ -61,7 +61,7 @@ What the alerts look like in the Learn module:
 
 :::image type="content" source="../assets/images/preview-alerts.png" alt-text="Screenshot of alerts in markdown.":::
 
-> For more information, refer to <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>Add alerts](https://review.docs.microsoft.com/help/learn/unit-add-alerts?branch=main).
+> For more information, refer to <a href="https://review.docs.microsoft.com/help/learn/unit-add-alerts?branch=main" target="_blank">Add alerts ![external link](../assets/images/extlink.png)</a>.
 
 ## Graphics in markdown
 
@@ -89,9 +89,9 @@ Other important points about graphics include:
 
 :::image type="content" source="../assets/images/media-folder.png" alt-text="Screenshot the media folder.":::
 
-> For more information, refer to <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>Create and format screenshots in documentation](https://review.docs.microsoft.com/help/contribute/contribute-how-to-create-screenshot?toc=/help/learn/toc.json&bc=/help/learn/breadcrumb/toc.json&branch=main).
+> For more information, refer to <a href="https://review.docs.microsoft.com/help/contribute/contribute-how-to-create-screenshot?toc=/help/learn/toc.json&bc=/help/learn/breadcrumb/toc.json&branch=main" target="_blank">Create screenshots for documentation ![external link](../assets/images/extlink.png)</a>.
 
->**Note:** You can see graphics in a Preview tab in VSC only if you have the <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>Docs Authoring Pack](https://review.docs.microsoft.com/learn-docs/docs/install-authoring-tools) installed. Graphics and alerts won’t be visible in GitHub; you’ll see the code instead of a preview. The following screenshot depicts how graphics and alerts appear in GitHub.
+>**Note:** You can see graphics in a Preview tab in VSC only if you have the <a href="https://review.docs.microsoft.com/learn-docs/docs/install-authoring-tools" target="_blank">Docs Authoring Pack ![external link](../assets/images/extlink.png)</a> installed. Graphics and alerts won’t be visible in GitHub; you’ll see the code instead of a preview. The following screenshot depicts how graphics and alerts appear in GitHub.
 
 :::image type="content" source="../assets/images/github-how-graphics-and-alerts-appear.png" alt-text="Screenshot of what preview looks like in GitHub.":::
 
@@ -101,23 +101,23 @@ Make sure that all graphic files are in the media folder and are named appropria
 
 ## Lightbox
 
-We recommend that you <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>create a lightbox](https://review.docs.microsoft.com/help/contribute/contribute-how-to-use-lightboxes) for most screenshots and all conceptual graphics with small text or details. Selecting a lightboxed graphic opens the graphic in a pop-up window. This makes it easier to view small text or detail. If you’re using more simple, conceptual graphics, you might not need a lightbox. The markdown syntax to create a lightbox is:
+We recommend that you <a href="https://review.docs.microsoft.com/help/contribute/contribute-how-to-use-lightboxes" target="_blank">create a lightbox ![external link](../assets/images/extlink.png)</a> for most screenshots and all conceptual graphics with small text or details. Selecting a lightboxed graphic opens the graphic in a pop-up window. This makes it easier to view small text or detail. If you’re using more simple, conceptual graphics, you might not need a lightbox. The markdown syntax to create a lightbox is:
 
 \:::image type="content" source="../assets/images/image-file-inline.png" alt-text="Image alt text" lightbox="image-file-expanded.png":::
 
->**Note:** In this example, there are two different images. One is smaller and used for the source property, while the other is larger and used for the lightbox. If the image used is larger, you can use it for both the source and lightbox. 
+>**Note:** In this example, there are two different images. One is smaller and used for the source property, while the other is larger and used for the lightbox. If the image used is larger, you can use it for both the source and lightbox.
 
 ## Links in markdown
 
 Reminders:
 
-- Links must resolve to an approved source, which typically means to Azure or Microsoft content. 
-- Don’t use AKA or forwarding links. 
-- Only include links in the Summary unit. Typically, links aren’t included in other units unless they’re critical to setting up or configuring an environment for an exercise. 
+- Links must resolve to an approved source, which typically means to Azure or Microsoft content.
+- Don’t use AKA or forwarding links.
+- Only include links in the Summary unit. Typically, links aren’t included in other units unless they’re critical to setting up or configuring an environment for an exercise.
 
-In markdown: 
+In markdown:
 
-- Don’t use abbreviations in links. This can affect Acrolinx scores that result from automated build testing. 
+- Don’t use abbreviations in links. This can affect Acrolinx scores that result from automated build testing.
 
     >**Note**: A file must achieve a minimum of an 80 Acrolinx score to publish, per the Learn platform. Waypoint’s mandate is that we’d like all files to achieve Acrolinx scores of as close to 100 as possible.
 
@@ -134,15 +134,14 @@ For example, the \```ruby and \``` that begin and end this code will display the
 
 :::image type="content" source="../assets/images/code-sample.png" alt-text="Screenshot of Ruby code in markdown.":::
 
-> For more information, refer to <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>WayPoint Ventures:Markdown syntax guide](https://waypointventures.github.io/docs/add-content/syntax.html#markdown-code-blocks). 
+> For more information, refer to <a href="https://waypointventures.github.io/docs/add-content/syntax.html#markdown-code-blocks" target="_blank">WayPoint Ventures:Markdown syntax guide ![external link](../assets/images/extlink.png)</a>. 
 
 ## Additional resources for including code
 
-<a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>Technical principles checklist - Docs Contributor Guide | Microsoft Docs](https://review.docs.microsoft.com/help/contribute/technical-principles-checklist?branch=main) 
+<a href="https://review.docs.microsoft.com/help/contribute/technical-principles-checklist?branch=main" target="_blank">Technical principles checklist - Docs Contributor Guide ![external link](../assets/images/extlink.png)</a> 
 
 Code conventions:
 
-- <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>Azure CLI](https://review.docs.microsoft.com/help/contribute/conventions-azure-cli) 
-
-- <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>Azure PowerShell](https://review.docs.microsoft.com/help/contribute/conventions-azure-ps) 
-- <a href="" target="_blank">linktext ![external link](../assets/images/extlink.png)</a>C# Coding Conventions (C# Programming Guide)](https://review.docs.microsoft.com/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
+- <a href="https://review.docs.microsoft.com/help/contribute/conventions-azure-cli" target="_blank">Azure CLI ![external link](../assets/images/extlink.png)</a> 
+- <a href="https://review.docs.microsoft.com/help/contribute/conventions-azure-ps" target="_blank">Azure PowerShell ![external link](../assets/images/extlink.png)</a> 
+- <a href="https://review.docs.microsoft.com/dotnet/csharp/programming-guide/inside-a-program/coding-conventions" target="_blank">C# Coding Conventions (C# Programming Guide) ![external link](../assets/images/extlink.png)</a>

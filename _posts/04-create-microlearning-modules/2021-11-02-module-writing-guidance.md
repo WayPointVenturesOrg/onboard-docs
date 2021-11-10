@@ -144,20 +144,6 @@ Code samples should include multiple programming languages. If you have coding e
 
 ![code sample](../assets/images/code-sample.png)
 
-### Publishing
-
-Content must meet the <a href="https://review.docs.microsoft.com/help/contribute/contribute-how-to-write-pull-request-quality-criteria?toc=/help/learn/toc.json&bc=/help/learn/breadcrumb/toc.json&branch=main" target="_blank">PR (Pull request) quality criteria ![external link](../assets/images/extlink.png)</a> in the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. 
-
-Each published file must have a minimum Acrolinx score of 80. To help achieve a high Acrolinx score:
-
-- Make sure there aren’t any misspelled words.
-
-- Avoid compound sentences. Break apart any long sentences into smaller ones.
-
-- Avoid overly-complex words if a more common word would do. 
-
-- Ensure there are no orphaned files in the authoring repo.
-
 ### Links
 
 Links must be to an approved source, which is typically Microsoft or Azure. 
@@ -201,6 +187,20 @@ It’s okay to use third-party references when:
 - The third-party product is “built-in” to an Azure product or service.
 
 - A hyperlink to an approved Microsoft website uses the product name in the link and/or the webpage title.
+
+## Publishing
+
+Content must meet the <a href="https://review.docs.microsoft.com/help/contribute/contribute-how-to-write-pull-request-quality-criteria?toc=/help/learn/toc.json&bc=/help/learn/breadcrumb/toc.json&branch=main" target="_blank">PR (Pull request) quality criteria ![external link](../assets/images/extlink.png)</a> in the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. 
+
+Each published file must have a minimum Acrolinx score of 80. To help achieve a high Acrolinx score:
+
+- Make sure there aren’t any misspelled words.
+
+- Avoid compound sentences. Break apart any long sentences into smaller ones.
+
+- Avoid overly-complex words if a more common word would do. 
+
+- Ensure there are no orphaned files in the authoring repo.
 
 ## References<a name="#references"></a>
 

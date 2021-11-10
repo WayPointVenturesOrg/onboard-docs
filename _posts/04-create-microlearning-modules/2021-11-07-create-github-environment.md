@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Work in GitHub and VSC
+title: Create a GitHub Environment
 subtitle:
 description: Notes on working in GitHub and VSC
 author: kcarlson
-date: 05 Nov 2021
-post-number: 4.5
+date: 07 Nov 2021
+post-number: 4.7
 category: create-microlearning-modules
-position-in-category: 5
+position-in-category: 7
 video_url: "none"
 ---
 

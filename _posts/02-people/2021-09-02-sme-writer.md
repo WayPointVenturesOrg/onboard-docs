@@ -48,20 +48,26 @@ Be available to the project team for the duration of the project.
 
 > For more information, refer to [Communication]({{site.baseurl}}/get-started/communication.html).
 
-### Use the provided Word template to create the module design and content
+### Use the provided Word template to create the design doc and module
 
-Use the provided Word template and Waypoint/Microsoft form factor appropriate for the module to create the module design and module content Word documents. The template contains example text and instructions, as well as links to targeted articles on the Microsoft Learn site.
+Use the provided Word template and Waypoint/Microsoft form factor appropriate for the module to create the module design and module content Word documents. 
 
-At the time of writing, for microlearning modules, there is one Word template used for both the module design and module content. After the design is completed:
-
-1. The Microlearning Specialist (MLS) saves the Word document as the design document (or *design doc* as we refer to it).
-1. The MLS makes copy of the design doc and provides it to the SME, who uses it to develop the module content. This reduces unnecessary copying and pasting from one template to another, which reduces development time and the chances for introducing errors.
-
-You can find the **Microlearning combined template.dotx** file <a href="https://waypointventures.sharepoint.com/sites/Home/Waypoint Documents/" target="blank">in this library ![external link](../assets/images/extlink.png)</a>. 
+At the time of writing, for microlearning modules, there is one Word template used for both the module design and module content. The PjM or MLS will provide the template to the SME. Or, you can find the **Microlearning combined template.dotx** file <a href="https://waypointventures.sharepoint.com/sites/Home/Waypoint Documents/" target="blank">in this library ![external link](../assets/images/extlink.png)</a>. 
 
 > **Important!** For specific instructions on downloading and using the template, please refer to <a href="https://waypointventures.sharepoint.com/sites/Home/Waypoint Documents/Microlearning combined template - instructions.docx?web=1" target="_blank">Microlearning combined template – instructions ![external link](../assets/images/extlink.png)</a>.
 
 > **Tip:** Ensure your knowledge of Word styles is adequate. The Word Heading and other styles in the templates must be used to get a good result at the end of development when the files are converted to markdown files and uploaded to GitHub. 
+
+The template contains example text and instructions, as well as links to targeted articles on the Microsoft Learn site.
+
+> **Hint:** The template contains instructions and links to the Microsoft Learn Contributors Guidelines in the document comments. Because comments are often removed as people work in the template, we suggest that people using the template keep a copy on their computer so they can refer to the comments later.
+
+After the design is completed:
+
+1. The Microlearning Specialist (MLS) saves the Word document as the design document (or *design doc* as we refer to it).
+1. The MLS makes copy of the design doc and provides it to the SME, who uses it to develop the module content. This reduces unnecessary copying and pasting from one template to another, which reduces development time and the chances for introducing errors.
+
+    > **Note:** If needed or requested, the MLS can assist the SME with text, graphics, or clarification of content requirements.
 
 ### Adhere to content requirements
 
