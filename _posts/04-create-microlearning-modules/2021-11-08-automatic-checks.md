@@ -5,9 +5,9 @@ subtitle:
 description: Automatic checks that occur after a pull request is made - Acrolinx and Validation build status
 author: kcarlson
 date: 04 Nov 2021
-post-number: 4.4
+post-number: 4.8
 category: create-microlearning-modules
-position-in-category: 4
+position-in-category: 8
 video_url: "none"
 ---
 

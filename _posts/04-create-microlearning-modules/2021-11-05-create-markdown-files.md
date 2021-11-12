@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Create a markdown file
+title: Create markdown files
 subtitle:
-description: Notes on working in the markdown language
+description: Notes on using Typora to create markdown files
 author: kcarlson
 date: 03 Sept 2021
 post-number: 4.5

@@ -5,9 +5,9 @@ subtitle:
 description: Additional resources
 author: kcarlson
 date: 06 Nov 2021
-post-number: 4.8
+post-number: 4.9
 category: create-microlearning-modules
-position-in-category: 8
+position-in-category: 9
 video_url: "none"
 ---
 
