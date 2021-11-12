@@ -4,60 +4,65 @@ title: Module content overview
 subtitle:
 description: An overview of the content to include when you write a module
 author: kcarlson
-date: 02 November 2021
+date: 01 Nov 2021
 post-number: 4.1
-category:  create-microlearning-modules
-position-in-category: 2
+category: create-microlearning-modules
+position-in-category: 1
 video_url: "none"
 ---
 
-This documentation is intended to give you a high-level understanding of how microlearning courses are different than ILT or other types of courses you’ve worked on in the past. It details form factors and guidance taken largely from the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main). Please also follow the links throughout this material to read the specific pages from the [Contributor Guide ](https://review.docs.microsoft.com/en-us/help/learn/?branch=main)for more specific guidance.
+This documentation is intended to give you a high-level understanding of how microlearning courses are different than ILT or other types of courses you’ve worked on in the past. It details form factors and guidance taken largely from the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. For more specific guidance, follow the links throughout this material to reference specific pages from the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>.
 
-# Module content overview
+This page contains:
 
-## Module types
+- <a href="#info">General module information</a>
+- <a href="#guidelines">Module guidelines</a>
+- <a href="#titles">Module and unit titles</a>
+- <a href="#content">Content of specific units</a>
 
-There are three module types: [Introduction to](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-intromodules?branch=main), [Choose](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-choosemodules?branch=main), and [Standard](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-standardmodules?branch=main). Each module is up to 60 minutes of content.
-
-Standard modules typically have exercises and knowledge checks that support the module learning objectives. 
-
-Note: **Introduction** **to** and **Choose** modules do not have exercises. There is another type of module known as **Intro to Products** that is not addressed in these materials because Microsoft controls all aspects of the development tools.
-
-Modules must be standalone and must be able to exist in multiple Learning Paths. For example, exercises should not span across modules.
-
-## Module overview
+## General module information<a name="info"></a>
 
 Modules are generally designed to be 60 minutes or less and contain between 4 and 10 Units. Units are all related to solving one task and should take no more than 10 minutes for learners to consume. 
 
-Module content must follow the guidelines in the [Microsoft Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main). This document reflects some of these requirements, but the Microsoft-owned [Learn Contributor Guide](https://review.docs.microsoft.com/en-us/help/learn/?branch=main) is subject to change, so please check it often for updates.
+>**Note:** Modules must be standalone and must be able to exist in multiple Learning Paths. For example, exercises should not span across modules.
+
+There are three module types: <a href="https://review.docs.microsoft.com/help/learn/id-guidance-intromodules?branch=main" target="_blank">Introduction to</a>, <a href="https://review.docs.microsoft.com/help/learn/id-guidance-choosemodules?branch=main">Choose</a>, and <a href="https://review.docs.microsoft.com/help/learn/id-guidance-standardmodules?branch=main" target="_blank">Standard</a>. 
+
+- Standard modules typically have exercises and knowledge checks that support the module learning objectives. 
+- **Introduction** **to** and **Choose** modules do not have exercises. 
+- There is another type of module known as **Intro to Products** that is not addressed in these materials because Microsoft controls all aspects of the development tools.
+
+## Module guidelines<a name="guidelines"></a>
+
+Module content must follow the guidelines in the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. This document reflects some of these requirements, but the Microsoft-owned <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a> is subject to change, so please check it often for updates.
 
 Guidelines for authoring and Microsoft Learn content requirements:
 
-- [Authoring guidelines](https://review.docs.microsoft.com/en-us/help/learn/id-guidance?branch=main)
+- <a href="https://review.docs.microsoft.com/help/learn/id-guidance?branch=main" target="_blank">Authoring guidelines ![external link](../assets/images/extlink.png)</a>
 
-- [Content requirements for Microsoft Learn](https://review.docs.microsoft.com/en-us/help/learn/content-requirements?branch=main).
+- <a href="https://review.docs.microsoft.com/help/learn/content-requirements?branch=main" target="_blank">Content requirements for Microsoft Learn ![external link](../assets/images/extlink.png)</a>
 
 Guidelines for writing introductions, prerequisites, and learning objectives:
 
-- [How to write introductions](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-introductions)
+- <a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductions" target="_blank">How to write introductions ![external link](../assets/images/extlink.png)</a>
 
-- [How to write prerequisites](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-prerequisites) 
+- <a href="https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites" target="_blank">How to write prerequisites ![external link](../assets/images/extlink.png)</a>
 
-- [How to write learning objectives](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-learning-objectives) 
+- <a href="https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives" target="_blank">How to write learning objectives ![external link](../assets/images/extlink.png)</a>
 
-### Standard modules
+### Guidelines for Standard modules
 
-[Standard modules](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-standardmodules?branch=main) must follow the core Learn structure: 
+<a href="https://review.docs.microsoft.com/help/learn/id-guidance-standardmodules?branch=main" target="_blank">Standard modules ![external link](../assets/images/extlink.png)</a> must follow the core Learn structure: 
 
-- Every module begins with an **[Introduction](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-introductions?branch=main)** unit and ends with a **[Summary](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-module-summary-unit?branch=main)** unit.
+- Every module begins with an <a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductions?branch=main" target="_blank">Introduction ![external link](../assets/images/extlink.png)</a> unit and ends with a <a href="https://review.docs.microsoft.com/help/learn/id-guidance-module-summary-unit?branch=main" target="_blank">Summary ![external link](../assets/images/extlink.png)</a> unit.
 
 - The rest of the units are either **Learning content** units or **Exercise** units. 
 
-- Most **Standard** modules include at least one **[Knowledge Check](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-knowledge-check?branch=main)** unit. A best practice is to collect all of the questions into a single penultimate unit. However, customers occasionally request an alternative.
+- Most **Standard** modules include at least one **<a href="Knowledge Check](https://review.docs.microsoft.com/help/learn/id-guidance-knowledge-check?branch=main)** unit. A best practice is to collect all of the questions into a single penultimate unit. However, customers occasionally request an alternative.
 
-### Introduction to modules
+### Guidelines for Introduction to modules
 
-[**Introduction to** modules](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-intromodules?branch=main) have regimented guidelines that need to be followed. Your PjM will assist the project team to ensure that content is provided accurately and in the correct format.
+<a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductions?branch=main" target="_blank">Introduction ![external link](../assets/images/extlink.png)</a> modules have regimented guidelines that need to be followed. Your PjM will assist the project team to ensure that content is provided accurately and in the correct format.
 
 In particular, **Introduction to** modules:
 
@@ -65,21 +70,21 @@ In particular, **Introduction to** modules:
 
 - Must have only the following units:
 
-1. Unit 1: Introduction
+    1. Unit 1: Introduction
+    
+    1. Unit 2: What is the product?
+    
+    1. Unit 3: How the product works
+    
+    1. Unit 4: When to use the product
 
-1. Unit 2: What is the product?
+    1. Unit 5: Knowledge check
+    
+    1. Unit 6: Summary
+    
+> For more information, refer to  <a href="https://review.docs.microsoft.com/help/learn/id-guidance-structure-learning-content?branch=main" target="_blank">How to structure a learning content unit ![external link](../assets/images/extlink.png)</a>.
 
-1. Unit 3: How the product works
-
-1. Unit 4: When to use the product
-
-\5.   Unit 5: Knowledge check
-
-\6.   Unit 6: Summary
-
-Please refer to [How to structure a learning content unit](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-structure-learning-content?branch=main) for more detailed information.
-
-## Module and unit titles
+## Module and unit titles<a name="titles"></a>
 
 A title (used for learning paths, modules, and units) is a concise statement that captures the terminal learning objective of the content. Also consider:
 
@@ -87,25 +92,25 @@ A title (used for learning paths, modules, and units) is a concise statement tha
 
 - Don’t use gerunds (“ing” words) in titles. For example, don’t use “Developing content…”. Instead, use “Develop content…" 
 
-[!Tip] Don’t use gerunds (“ing” words) in unit names, titles, or headings.
+>**Tip:** Don’t use gerunds (“ing” words) in unit names, titles, or headings.
 
 - Write titles in sentence case (that is, only the first word and product names should be capitalized).
 
-Refer to [How to write titles](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-title) for more detailed information.
+> For more information, refer to <a href="https://review.docs.microsoft.com/help/learn/id-guidance-title" target="_blank">How to write titles ![external link](../assets/images/extlink.png)</a>.
 
-## Content of specific units
+## Content of specific units<a name="content"></a>
 
 There is specific guidance for **Introduction**, **Knowledge check**, **Exercise**, and **Summary** units. 
 
 ### Introduction units
 
-The [Introduction unit](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-introductions?branch=main) contains:
+The <a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductions?branch=main" target="_blank">Introduction unit ![external link](../assets/images/extlink.png)</a> contains:
 
-1. The [introductory summary](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-introductory-summaries?branch=main), which is one paragraph of no more than 35 words that “…tells the learner what they will do and how they will do it; it expands on the *title* but doesn't duplicate it. The summary helps the learners quickly decide whether the content meets their needs.” It’s the first paragraph in the [Introduction unit](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-introductions?branch=main). 
+1. The <a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductory-summaries?branch=main" target="_blank">introductory summary ![external link](../assets/images/extlink.png)</a>, which is one paragraph of no more than 35 words that “…tells the learner what they will do and how they will do it; it expands on the *title* but doesn't duplicate it. The summary helps the learners quickly decide whether the content meets their needs.” It’s the first paragraph in the <a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductions?branch=main" target="_blank">Introduction unit ![external link](../assets/images/extlink.png)</a>. 
 
-1. The module [scenario](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-scenarios?branch=main), which is “…a fictionalize real-world job-task presented as a story that shows how the technology is used in practice.” It’s included in the [Introduction unit](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-introductions?branch=main) to set the stage: who the learner is, what problem they have that they need to solve, and how the technology will solve it. 
+1. The module <a href="https://review.docs.microsoft.com/help/learn/id-guidance-scenarios?branch=main" target="_blank">scenario ![external link](../assets/images/extlink.png)</a>, which is “…a fictionalized real-world job-task presented as a story that shows how the technology is used in practice.” It’s included in the <a href="https://review.docs.microsoft.com/help/learn/id-guidance-introductions?branch=main" target="_blank">Introduction unit ![external link](../assets/images/extlink.png)</a> to set the stage: who the learner is, what problem they have that they need to solve, and how the technology will solve it.
 
-[!Note] The scenario is referenced in the first paragraph of every subsequent Learning content unit to continue to tell the story of how what they learn in the unit about the technology will solve their problem.
+>**Note:** The scenario is referenced in the first paragraph of every subsequent Learning content unit to continue to tell the story of how what they learn in the unit about the technology will solve their problem.
 
 1. The prose table-of-contents, which is a paragraph that describes in full sentences what is in the module. Typically, it begins with “In this module, you will…”
 
@@ -113,9 +118,9 @@ The [Introduction unit](https://review.docs.microsoft.com/en-us/help/learn/id-gu
 
 ### Knowledge check units
 
-Write knowledge check questions that reflect the “takeaway” learning from the module. The questions must follow the guidance in [Add a knowledge check to a unit](https://review.docs.microsoft.com/en-us/help/learn/unit-add-a-knowledge-check?branch=main). Also consider:
+Write knowledge check questions that reflect the “takeaway” learning from the module. The questions must follow the guidance in <a href="https://review.docs.microsoft.com/help/learn/unit-add-a-knowledge-check?branch=main" target="_blank">Add a knowledge check to a unit ![external link](../assets/images/extlink.png)</a>. Also consider:
 
-- You can use the scenario if that’s appropriate. 
+- You can use the scenario if that’s appropriate.
 
 - If the knowledge check questions are all in the penultimate Knowledge check unit (which is a best practice) it must have 3-5 questions.
 
@@ -123,13 +128,13 @@ Write knowledge check questions that reflect the “takeaway” learning from th
 
 ### Exercise units
 
-**Exercise** units must be preceded by a **Learning content** unit (in other words, you can’t have two **Exercise** units one after the other; they must be separated by a **Learning content** unit. The unit preceding the **Exercise** unit (the **Learning content** unit) must include everything needed for the learner to complete the exercise.
+<a href="https://review.docs.microsoft.com/help/learn/id-guidance-structure-exercise-content?branch=main" target="_blank">**Exercise** ![external link](../assets/images/extlink.png)</a> units must be preceded by a **Learning content** unit (in other words, you can’t have two **Exercise** units one after the other; they must be separated by a **Learning content** unit. The unit preceding the **Exercise** unit (the **Learning content** unit) must include everything needed for the learner to complete the exercise.
 
 Exercises should be based on real-world scenarios. The exercise instructions must be complete and clear so that anyone could follow the instructions to complete the exercise without any additional required steps.
 
 ### Summary units
 
-What do you want the learner to remember? The [Summary unit](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-module-summary-unit?branch=main) helps learner with memory retention and contains:
+What do you want the learner to remember? The <a href="https://review.docs.microsoft.com/help/learn/id-guidance-module-summary-unit?branch=main" target="_blank">Summary unit ![external link](../assets/images/extlink.png)</a> helps learner with memory retention and contains:
 
 - First paragraph: 
 
