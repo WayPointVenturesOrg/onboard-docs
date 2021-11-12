@@ -58,7 +58,7 @@ Guidelines for writing introductions, prerequisites, and learning objectives:
 
 - The rest of the units are either **Learning content** units or **Exercise** units. 
 
-- Most **Standard** modules include at least one **<a href="Knowledge Check](https://review.docs.microsoft.com/help/learn/id-guidance-knowledge-check?branch=main)** unit. A best practice is to collect all of the questions into a single penultimate unit. However, customers occasionally request an alternative.
+- Most **Standard** modules include at least one <a href="https://review.docs.microsoft.com/help/learn/id-guidance-knowledge-check?branch=main" target="_blank">Knowledge Check ![external link](../assets/images/extlink.png)</a> unit. A best practice is to collect all of the questions into a single penultimate unit. However, customers occasionally request an alternative.
 
 ### Guidelines for Introduction to modules
 
