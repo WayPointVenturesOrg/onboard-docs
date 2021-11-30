@@ -14,34 +14,38 @@ video_url: "none"
 This page contains:
 
 - Overview
-- Steps to create a GitHub environment
-- Create scaffolding
+- Install and set up Visual Studio code
+- Create a new fork in GitHub
+- Clone the fork in VSC
+- Create scaffolding with VSC extension
+- Create unit markdown files
+- Fill in .yml metadata
 
 ## Overview
 
-Toward the end of development, the MLS moves all the module content into GitHub. Here's an overview of the steps. The MLS:
+Toward the end of development, the MLS moves all the module content into a new fork in GitHub. Here's an overview of the steps. The MLS:
 
 1. Installs and sets up Virtual Studio Code (VSC) on their computer.
-1. Creates a new fork in GitHub from the Waypoint/Microsoft fork.
+1. Creates a copy (a *fork*) in GitHub of the existing GitHub Microsoft repository (*repo*).
 
-    > **Note:** This new MLS fork is where all the module content lives. The MLS doesn't ever merge the MLS fork back into the Waypoint/Microsoft fork.
+    - The module content during development exists in this new MLS fork. 
+    - The MLS doesn't ever merge this MLS fork back into the Waypoint/Microsoft fork. This is done by Microsoft after development and final sign-off.
 
-1. Clones (makes a copy of) the MLS fork, using VSC, to their own computer.
-1. Creates scaffolding using a VSC extension. 
-
-    > **Note:** *Scaffolding* is the folder structure and files in GitHub for all the files in the published module.
+1. Creates a copy (*clones*) the MLS fork, using VSC, to their own computer.
+1. Creates the folder structure and files for all the files in the published module (called *scaffolding*) using a VSC extension.
 
 1. Creates the unit markdown files using the text from the module doc and a program called Typora.
 1. Fills in the additional information, or *metadata*, to files that were created automatically when the scaffolding was created.
 
-    > **Tip:** The Module template has notes to guide the MLS to add the information to the module files. 
+    > **Tip:** The Module template has notes to guide the MLS when adding metadata to the .yml files.
 
 ## Install and set up Visual Studio Code
 
 Visual Studio Code (VSC) is used to work with the module files.
 
 - The module unit files are in a code language called *markdown*, which is similar to HTML. Markdown files have the .md extension. 
-- There are other files with the .yml extension that are used in the published course.
+- The YAML files have the .yml extension. They are used in the published course to provide information about the course.
+- Other files include images and graphics. These will have either a .png or .svg.
 
 ### What the MLS should install
 
@@ -53,25 +57,32 @@ The MLS should install:
 
 ## Create a new fork in GitHub
 
-In GitHub, navigate to the Microsoft/Waypoint repo.
+To create a fork (copy) of the repo in your GitHub account: 
 
-> **Note:** As of this writing, to access the learn-pr code repo, you'll need to link your GitHub and v- account and join the MicrosoftDocs org. Use the instructions at [GitHub account setup](https://review.docs.microsoft.com/en-us/help/contribute/contribute-get-started-setup-github?branch=master) to do that.
+1. In a browser, the MLS should log in to GitHub and then navigate to the Microsoft/Waypoint repo.
 
-After you create a fork of the repo, you'll be able to access and work on your fork from your computer using VSC.
+    > **Note:** As of this writing, to access the learn-pr code repo, the GitHub and v- accounts need to be linked. Refer to the instructions at [GitHub account setup](https://review.docs.microsoft.com/en-us/help/contribute/contribute-get-started-setup-github?branch=master).
 
-Select the Fork button to create a fork in your GitHub account. ***need to check the language here***
+1. Select the *Fork* button and then confirm your GitHub account as the location for the new fork.
+
+![The Fork button in GitHub](../assets/images/github-create-fork.png)
 
 ## Clone the fork in VSC
 
-Select the **Clone** button. This copies the address of the repo into your clipboard. ***graphic***
+After you create a fork of the repo, you'll be able to access and work on your fork from your computer using VSC. You do this by creating a local copy of the fork on your computer called a *clone*. You make changes to the clone (on your computer) and then periodically upload the changes to the fork in GitHub.
+
+Select the **Clone** button. This copies the address of the repo into your clipboard. 
+
+***graphic***
 
 Switch to VSC on your computer.
 Select **View** > **Command Pallette** > **Git: Clone**.
-Paste the address Ctrl+V and then press Enter.
+**Ctrl+V** to paste the address and then press Enter.
+
 ## Create scaffolding with VSC extension
 
 To create scaffolding automatically, be sure the **Docs Authoring Pack for VS Code** extension for VSC is installed.
-This extension includes the **Docs Scaffolding** extension, which you can use to auto-generate (*scaffold*) a skeleton module based on one of the standard module patterns:
+This extension includes the **Docs Scaffolding** extension which the MLS uses to auto-generate (*scaffold*) a skeleton module based on one of the standard module patterns:
 
 - [Standard](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-standardmodules)
 - [Introduction](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-intromodules)
@@ -81,42 +92,45 @@ To create the scaffolding for a Standard Learn module:
 
 1. In VSC, select the **Explorer** button. Navigate to the parent folder, in which you want to create the module folder.
 1. Right-click the parent folder and choose ***Learn: Create module in CURRENT folder***.
-vsc-create-module-scaffolding-1.png
-1. Select **Standard**.
-    ![Project scaffolding in VSC](../assets/images/vsc-create-module-scaffolding-2.png)
 
+    ![Create module in current folder option.](../assets/images/vsc-create-module-scaffolding-1.png)
+
+1. Select **Standard**.
+
+    ![Select the option for a Standard module.](../assets/images/vsc-create-module-scaffolding-2.png)
 
 1. Enter the module name, all lower-case, using dashes to separate the words (not underscores), and then press Enter.
 
-    ![Project scaffolding in VSC](../assets/images/vsc-create-module-scaffolding-3.png)
+    ![Enter the module name.](../assets/images/vsc-create-module-scaffolding-3.png)
 
-A folder is created with the module name. Inside the module folder are the following:
+### What is created in the module scaffolding
 
-   - An **includes** folder used to store the unit (markdown) files. In the includes folder, there are markdown files for each unit in the module.  The files contain template text help create the module content following Learn best practices. They are:
-       - 1-introduction.md
-        - 2-learning-content.md
-            - Make a copy of this file for each learning content unit in the module.
-        - 3-exercise.md
-            - Remove if the module doesn't contain an exercise.
-        - 4-knowledge-check.md
-        - 5-summary.md
-
-    - A **media** folder used to store the module images and media files.
-    - The following YAML files (with a .yml extension):
-        - 1-introduction.yml
-        - 2-learning-content.yml
-            - Make a copy of this file for each learning content unit in the module.
-        - 3-exercise.yml
-            - Remove if the module doesn't contain an exercise.
-        - 4-knowledge-check.yml
-        - 5-summary.yml
-        - index.yml file with the default metadata updated.
+A folder is created with the module name you specified. Inside the folder are sub-folders and files.
 
 ![Project scaffolding in VSC](../assets/images/vsc-create-unit-yml-files.png)
 
-> **Note:** The scaffolding .yml files contain placeholder text you'll need to update with real information.
+Inside the module folder are the following:
 
-[Create scaffolding](https://waypointventures.github.io/docs/add-content/scaffold.html) or https://review.docs.microsoft.com/en-us/help/learn/create-scaffold-template?branch=main
+- An **includes** folder used to store the unit (markdown) files. In the includes folder, there are markdown files for each unit in the module.  The files contain template text help create the module content following Learn best practices. They are:
+  - 1-introduction.md
+  - 2-learning-content.md
+    - Make a copy of this file for each learning content unit in the module.
+  - 3-exercise.md
+    - Remove if the module doesn't contain an exercise.
+  > **Note:** Manually add a 4-knowledge-check.md file.
+  - 5-summary.md
+- A **media** folder used to store the module images and media files.
+- The following YAML files (with a .yml extension):
+  - 1-introduction.yml
+  - 2-learning-content.yml
+    - Make a copy of this file for each learning content unit in the module.
+  - 3-exercise.yml
+    - Remove if the module doesn't contain an exercise.
+  - 4-knowledge-check.yml
+  - 5-summary.yml
+- index.yml file with the default metadata updated.
+
+> For more detailed information, refer to [Create scaffolding](https://waypointventures.github.io/docs/add-content/scaffold.html) or [Create scaffold template](https://review.docs.microsoft.com/en-us/help/learn/create-scaffold-template?branch=main).
 
 
 
@@ -138,20 +152,27 @@ A folder is created with the module name. Inside the module folder are the follo
 
 ## Create unit files
 
+Each unit in the module must have both a markdown (.md) and a YAML (.yml) file. The files should be numbered in the order they appear in the module.
+
+The unit markdown files contain the content of the unit. The MLS adds this content from the Module Word document by using Typora. More detailed instructions for this process are in 
+
 ## Fill in metadata
 
+The scaffolding YAML files contain placeholder text the MLS replaces with the real information from the Design or Module Word documents. Each YAML file also has one line that includes the file name for the associated markdown file.
 
-
-
-
-
-
-
+> **Tip:** The Microlearning combined template.dotx file has comments to help the MLS move the information from the template to the YAML files.
  
 
-[Create a new branch in VSC](https://waypointventures.github.io/docs/branches/new-branch.html)
+## Update files in GitHub
 
+After making changes to files in VSC, the MLS saves and uploads the changed files to GitHub. The first time this is done, VSC will prompt the MLS to create a Pull Request.
+
+[Create a new branch in VSC](https://waypointventures.github.io/docs/branches/new-branch.html)
 [Invite collaborator](https://waypointventures-my.sharepoint.com/personal/karinca_waypoint_ws/Documents/Invite collaborator)
+
+
+
+
 
 Working with files in GitHub
 
