@@ -112,10 +112,20 @@ After the MLS uploads the markdown files to GitHub, the MLS creates a <a href="h
 
 Once a pull request exists, anytime the files in GitHub are updated, several automatic checks occur to ensure that all content can publish without errors. The automatic checks include:
 
-- An Acrolinx scorecard with a score for each markdown and yaml file
-- A Validation (build) status report 
+- An Acrolinx scorecard with a score for each markdown and yaml file.
+- A Validation (build) status report.
 
 The results of these tests are reported through emails to the pull request’s owner (the MLS). The MLS checks the emails for problems and then fixes the appropriate .md or .yml files.
+
+Each published file must have a minimum Acrolinx score of 80. To help achieve a high Acrolinx score:
+
+- Make sure there aren’t any misspelled words.
+
+- Avoid compound sentences. Break apart any long sentences into smaller ones.
+
+- Avoid overly-complex words if a more common word would do.
+
+- Ensure there are no orphaned files in the authoring repo.
 
 > For more information, refer to [automatic checks]({{site.baseurl}}/create-microlearning-modules/automatic-checks.html).
 

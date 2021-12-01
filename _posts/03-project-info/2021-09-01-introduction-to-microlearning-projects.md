@@ -32,7 +32,7 @@ Most projects have six phases:
 
 This guide focuses on Phase 3 [Design]({{site.baseurl}}/project-info/the-design-phase.html), phase 4 [Development]({{site.baseurl}}/project-info/the-development-phase.html), and phase 5 [Publication]({{site.baseurl}}/project-info/the-publishing-phase.html).
 
-![Three phases of development: Design, Developing, Publishing](../assets/images/three-phases-development.png)
+![Three phases of development: Design, Development, Publishing](../assets/images/three-phases-development.png)
 
 >**Note:** This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information.
 

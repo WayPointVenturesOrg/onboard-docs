@@ -13,19 +13,7 @@ video_url: "none"
 
 Content must meet the <a href="https://review.docs.microsoft.com/help/contribute/contribute-how-to-write-pull-request-quality-criteria?toc=/help/learn/toc.json&bc=/help/learn/breadcrumb/toc.json&branch=main" target="_blank">PR (Pull request) quality criteria ![external link](../assets/images/extlink.png)</a> in the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>.
 
-## Acrolinx scores
-
-Each published file must have a minimum Acrolinx score of 80. To help achieve a high Acrolinx score:
-
-- Make sure there aren’t any misspelled words.
-
-- Avoid compound sentences. Break apart any long sentences into smaller ones.
-
-- Avoid overly-complex words if a more common word would do. 
-
-- Ensure there are no orphaned files in the authoring repo.
-
-## Handoff to PjM
+## Hand off to PjM
 
 Once all units of a module have an Acrolinx score of 80 or higher and pass all build-validation tests, the MLS hands off the module to the PjM, who then submits it to Microsoft for their publishing process:
 
