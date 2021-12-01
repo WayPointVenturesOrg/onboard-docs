@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Prepare a working environment in GitHub
+title: Prepare VSC and GitHub
 subtitle:
-description: How to create a fork, the module scaffolding, and the MLS branch by working in GitHub and VSC
+description: How to set up VSC and prepare a working environment in GitHub.
 author: kcarlson
 date: 07 Nov 2021
 post-number: 4.5
@@ -13,23 +13,23 @@ video_url: "none"
 
 This page contains:
 
-- Overview
-- Install and set up Visual Studio code
-- Create a new fork in GitHub
-- Clone the fork in VSC
-- Create scaffolding with VSC extension
-- Create unit markdown files
-- Fill in .yml metadata
+- <a href="#overview">Overview</a>
+- <a href="#vsc">Install and set up Visual Studio code</a>
+- <a href="#fork">Create a new fork</a>
+- <a href="#clone">Clone the fork</a>
+- <a href="#scaffolding">Create scaffolding with VSC extension</a>
+- <a href="#branch">Create a branch</a>
+- <a href="#files">Work with markdown and YAML files</a>
 
-## Overview
+## Overview<a name="overview"></a>
 
-Toward the end of development, the MLS moves all the module content into a new fork in GitHub. Here's an overview of the steps. The MLS:
+Toward the end of development, the MLS moves all the module content into a fork in GitHub. Here's an overview of the steps. The MLS:
 
 1. Installs and sets up Virtual Studio Code (VSC) on their computer.
-1. Creates a copy (a *fork*) in GitHub of the existing GitHub Microsoft repository (*repo*).
+1. Creates a copy (a *fork*) in GitHub of the existing [**MicrosoftDocs/learn-pr**](https://github.com/MicrosoftDocs/learn-pr) repository (*repo*).
 
     - The module content during development exists in this new MLS fork. 
-    - The MLS doesn't ever merge this MLS fork back into the Waypoint/Microsoft fork. This is done by Microsoft after development and final sign-off.
+    - The MLS doesn't ever merge this MLS fork back into the MicrosoftDocs/learn-pr fork. This is done by Microsoft after development and final sign-off.
 
 1. Creates a copy (*clones*) the MLS fork, using VSC, to their own computer.
 1. Creates the folder structure and files for all the files in the published module (called *scaffolding*) using a VSC extension.
@@ -39,7 +39,9 @@ Toward the end of development, the MLS moves all the module content into a new f
 
     > **Tip:** The Module template has notes to guide the MLS when adding metadata to the .yml files.
 
-## Install and set up Visual Studio Code
+The rest of this page gives high-level instructions for the MLS. It walks the MLS through the process of setting up their computer and GitHub, with the end result of having scaffolding for the module and a fork, branch, and pull request.
+
+## Install and set up Visual Studio Code<a name="vsc"></a>
 
 Visual Studio Code (VSC) is used to work with the module files.
 
@@ -49,37 +51,50 @@ Visual Studio Code (VSC) is used to work with the module files.
 
 ### What the MLS should install
 
-The MLS should install:
+As the MLS, you should install:
 
 - [Visual Studio Code](https://waypointventures.github.io/docs/install/install-vsc.html) to edit markdown and other module files. 
 - [Docs Authoring Pack](https://waypointventures.github.io/docs/install/install-author-pack.html) to expand VSC with markdown-specific tools like a spell checker, markdown syntax, and the [Docs Scaffolding extension](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-scaffolding).
 - [Word Count extension](https://waypointventures.github.io/docs/install/install-wordcount-ext.html) to display a word count in open markdown files.
 
-## Create a new fork in GitHub
+## Create a new fork<a name="fork"></a>
 
-To create a fork (copy) of the repo in your GitHub account: 
+To create a fork (copy) of the MicrosoftDocs/learn-pr repo in your GitHub account: 
 
-1. In a browser, the MLS should log in to GitHub and then navigate to the Microsoft/Waypoint repo.
+1. In a browser, log in to GitHub and then navigate to the MicrosoftDocs/learn-pr repo.
 
-    > **Note:** As of this writing, to access the learn-pr code repo, the GitHub and v- accounts need to be linked. Refer to the instructions at [GitHub account setup](https://review.docs.microsoft.com/en-us/help/contribute/contribute-get-started-setup-github?branch=master).
+    > **Note:** As of this writing, to access the MicrosoftDocs/learn-pr code repo, your GitHub and v- accounts need to be linked. Refer to the instructions at [GitHub account setup](https://review.docs.microsoft.com/en-us/help/contribute/contribute-get-started-setup-github?branch=master).
 
-1. Select the *Fork* button and then confirm your GitHub account as the location for the new fork.
+1. Select the **Fork** button and then confirm your GitHub account as the location for the new fork.
 
-![The Fork button in GitHub](../assets/images/github-create-fork.png)
+    ![The Fork button in GitHub](../assets/images/github-create-fork.png)
 
-## Clone the fork in VSC
+> For more detailed information, refer to [Fork a repository](https://waypointventures.github.io/docs/download-files/fork-repo.html).
 
-After you create a fork of the repo, you'll be able to access and work on your fork from your computer using VSC. You do this by creating a local copy of the fork on your computer called a *clone*. You make changes to the clone (on your computer) and then periodically upload the changes to the fork in GitHub.
+## Clone the fork<a name="clone"></a>
 
-Select the **Clone** button. This copies the address of the repo into your clipboard. 
+After you create a fork of the MicrosoftDocs/learn-pr repo, you'll be able to access and work on your fork from your computer using VSC. You do this by creating a local copy of the fork on your computer called a *clone*. You make changes to the clone (on your computer) and then periodically upload the changes to the fork in GitHub.
 
-***graphic***
+1. Make sure you are in your fork, the one you made from the MicrosoftLearn/learn-pr repo.
+1. Select the **Code** button and then select the **Copy** button. This copies the address of your cloned repo into your clipboard. Note that when you clone, you are cloning from the root of your branch. 
 
-Switch to VSC on your computer.
-Select **View** > **Command Pallette** > **Git: Clone**.
-**Ctrl+V** to paste the address and then press Enter.
+    ![The Fork button in GitHub](../assets/images/github-create-clone.png)
 
-## Create scaffolding with VSC extension
+1. Switch to VSC on your computer.
+1. Select **View** > **Command Pallette** > **Git: Clone**.
+1. **Ctrl+V** to paste the address of the cloned repo and then press Enter.
+1. Navigate to a folder on your computer and then select **Select Repository Location**. To avoid overly-long file paths, it's suggested to create a folder directly on your C drive for the repo, for example, C:\repo-folder.
+
+A copy of the module folder and all its contents is created on your computer. To work in VSC, open this local folder. 
+
+### Invite collaborators
+
+The MLS can also invite collaborators to the fork and/or branch so others on the team can also work in the fork and/or branch, if necessary. Collaborators would typically include the PjM and SME.
+
+> For more information, refer to [Invite  a collaborator](https://waypointventures-my.sharepoint.com/personal/karinca_waypoint_ws/Documents/Invite collaborator).
+
+
+## Create scaffolding with VSC extension<a name="scaffolding"></a>
 
 To create scaffolding automatically, be sure the **Docs Authoring Pack for VS Code** extension for VSC is installed.
 This extension includes the **Docs Scaffolding** extension which the MLS uses to auto-generate (*scaffold*) a skeleton module based on one of the standard module patterns:
@@ -88,6 +103,11 @@ This extension includes the **Docs Scaffolding** extension which the MLS uses to
 - [Introduction](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-intromodules)
 - [Choose](https://review.docs.microsoft.com/en-us/help/learn/id-guidance-choosemodules)
  
+> **Tip:** Before creating the scaffolding, update your Settings to auto-populate metadata when you create scaffolding for a new module. From the VSC File menu, select **Preferences**, **Settings**.
+Expand **Extensions** and then select Docs Scaffolding Extension Configuration. Complete instructions can be found in VSC under **Extensions** > **docs-scaffolding** > **Details**.
+
+![scaffolding read me](../assets/images/vsc-scaffolding-info.png)
+
 To create the scaffolding for a Standard Learn module:
 
 1. In VSC, select the **Explorer** button. Navigate to the parent folder, in which you want to create the module folder.
@@ -130,163 +150,50 @@ Inside the module folder are the following:
   - 5-summary.yml
 - index.yml file with the default metadata updated.
 
-> For more detailed information, refer to [Create scaffolding](https://waypointventures.github.io/docs/add-content/scaffold.html) or [Create scaffold template](https://review.docs.microsoft.com/en-us/help/learn/create-scaffold-template?branch=main).
+For more detailed information, refer to:
+-  <a href="https://waypointventures.github.io/docs/add-content/scaffold.html) or [Create scaffold template](https://review.docs.microsoft.com/en-us/help/learn/create-scaffold-template?branch=main" target="_blank">Create scaffolding ![external link](../assets/images/extlink.png)</a>.
+- <a href="https://review.docs.microsoft.com/en-us/help/learn/create-scaffold-template?branch=main" target="_blank">Scaffold a module using the Docs Scaffolding extension for VS Code ![external link](../assets/images/extlink.png)</a>.
 
 
+## Create a branch<a name="branch"></a>
+
+You can make changes directly to the fork, but a method that generates a "before and after" for your changes involves a branch and pull request.
+
+In VSC, the MLS creates a branch to use for content changes and updates. Changed content is changed in the branch, not directly in the fork. 
+
+After making changes to files in VSC, the MLS saves and uploads the changed files to GitHub. The first time this is done, VSC will prompt the MLS to create a Pull Request.
+
+In the pull request, you can view the changes you've made before they are merged into the fork. After the changes are reviewed in a pull request, the changed content in the branch is merged into the fork, thereby updating the fork. At this point, typically the pull request is closed and the branch is deleted.
+
+> For more information about branches, refer to [Create a new branch in VSC](https://waypointventures.github.io/docs/branches/new-branch.html)
 
 
-
-
-
-
-> For more detailed instructions, please refer to <a href="https://review.docs.microsoft.com/en-us/help/learn/create-scaffold-template?branch=main" target="_blank">Scaffold a module using the Docs Scaffolding extension for VS Code ![external link](../assets/images/extlink.png)</a>.
-
-
-
-
-
-
-
-
-
-
-## Create unit files
+## Work with markdown and YAML files<a name="files"></a>
 
 Each unit in the module must have both a markdown (.md) and a YAML (.yml) file. The files should be numbered in the order they appear in the module.
 
-The unit markdown files contain the content of the unit. The MLS adds this content from the Module Word document by using Typora. More detailed instructions for this process are in 
-
-## Fill in metadata
+The unit markdown files contain the content of the unit. The MLS adds this content from the Module Word document by using Typora. 
 
 The scaffolding YAML files contain placeholder text the MLS replaces with the real information from the Design or Module Word documents. Each YAML file also has one line that includes the file name for the associated markdown file.
 
 > **Tip:** The Microlearning combined template.dotx file has comments to help the MLS move the information from the template to the YAML files.
- 
 
-## Update files in GitHub
+> More detailed instructions for this process are in [Create markdown files]({{site.baseurl}}/get-started/create-markdown-files.html).
 
-After making changes to files in VSC, the MLS saves and uploads the changed files to GitHub. The first time this is done, VSC will prompt the MLS to create a Pull Request.
+### Save and upload (push) your changes
 
-[Create a new branch in VSC](https://waypointventures.github.io/docs/branches/new-branch.html)
-[Invite collaborator](https://waypointventures-my.sharepoint.com/personal/karinca_waypoint_ws/Documents/Invite collaborator)
+When you save your changes in VSC, the local files are updated. 
 
+To upload the changed local files to update the fork online in GitHub, you'll need to stage, commit, and push your changes:
 
+1. Select the **Source Control** button.
+1. Select the **Stage All Changes** (+) button to stage all changed files.
+  ![stage changes buttons in VSC](../assets/images/vsc-stage-changes.png)
+1. Enter a short note about the change.
+1. Select the **Commit** button (the checkmark) to commit all staged changes.
+  ![commit changes buttons in VSC](../assets/images/vsc-commit-changes.png)
 
+1. Select the **Views and More Actions** button, and then select Push.
+  ![push changes buttons in VSC](../assets/images/vsc-push-changes.png)
 
-
-Working with files in GitHub
-
-There is a specific process to use to make changes in files in GitHub. 
-
-Because multiple people will have access to the files, it’s crucial that you and your team communicate with each other about who should be editing files at any given time. Note: This is less of a concern if most of the development is done in Word. 
-
-The most-recent files need to be copied to your computer in a process called *cloning.* You make changes in VSC Code to the local files (on your computer) and then copy them back to GitHub in a two-step process: commit and push. “Commit” saves your VSC changes to your local files. “Push” copies them back “up” to GitHub.
-
-If you have a recent clone but you’re not sure if other people have made changes to the files since you worked on them last, you can use an “old” clone and do a “pull” before you start working. When you “pull” files, the latest files in GitHub are copied to your local files. Be aware that if you’ve made changes locally and haven’t pushed them up, doing a pull will write over your local files and you’ll lose your changes.
-
-\1.   Get the most-recent files from GitHub: New clone or existing clone + pull 
-
-\2.   Work in VSC Code and save your changes locally.
-
-\3.   Move your changes back to GitHub: Commit and then push to your branch.
-
-Note that when you clone, you are cloning from your branch, and from the root of your branch. You might need to “drill down” to the folder that contains your files.
-
-Further reading
-
-[Update branch (pull) in VSC](https://waypointventures.github.io/docs/branches/pull-updates.html)
-
-[Send (push) files](https://waypointventures.github.io/docs/branches/push-files.html)
-
-[GitHub/Azure DevOps development FAQ](https://waypointventures.github.io/docs/appendices/faq.html)
-
-**More resources** 
-
- 
-
-Useful links (use your v- to access) 
-
-·    [Learn Contributors Guide](https://review.docs.microsoft.com/learn-docs/docs/) – All the information that you ever wanted to know about what makes Learn content can be found here. 
-
-·    [Docs Contributors Guide](https://review.docs.microsoft.com/help/contribute/) – Because Learn runs on Docs, our guidance is inclusive of this contributors guide as well. You'll find many cases where we default to the Docs guidance, so this is a great resource as well. 
-
-
-·    [Microsoft Style Guide](https://styleguides.azurewebsites.net/StyleGuide/List) – Great place to reference if you're not sure on terminology. 
-
-·    [learn-pr](https://github.com/MicrosoftDocs/learn-pr) – Here's where all of our content lives. 
-
-·    [Microsoft Learn Azure DevOps](https://dev.azure.com/ceapex/Microsoft Learn/_backlogs/backlog/Waypoint/Stories/?showParents=true) – This is a backlog I created to track the work for this project. I'm in the process of adding all the members to the team, so this may not work for you at the moment, but should soon. 
-
-·    [Instructional design home page](https://aka.ms/learn/id) – Use this resource to get information on our instructional design practices. 
-
-·    [MS Learn & Waypoint Collaboration team](https://teams.microsoft.com/l/team/19%3a8859dd55812a40139162ac2a962100d9%40thread.tacv2/conversations?groupId=f2da37a2-23fa-4374-bae0-a0c08a9af078&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) – Private team for our projects. Feel free to reach out here for anything specific to our project. 
-
-·    [Microsoft Learn team](https://teams.microsoft.com/l/team/19%3ae71b47303a114990a3f0748661f48929%40thread.skype/conversations?groupId=2cd70980-6c76-45e6-8b88-02ea0b1fd561&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) – This is an open team where anyone can post questions or get any information on Microsoft Learn in general. 
-
-# YAML scaffolding 
-
-Some of the content that students encounter is pulled from YAML files known as scaffolding or ‘work items’. 
-
-The YAML files are created by Microsoft with several elements marked “to do,” that the MLS or SME needs to fill in. There are three types of files you will need to fill in: 
-
-\1.    **Index (1 per module)**: The index file provides information about the overall module. Fields you need to fill in are: 
-
-a.   Summary (maximum 35 words). [See How to write introductory summaries for modules and learning paths](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-introductory-summaries?branch=master). 
-
-b.   Abstract (in this module, you will): fill in the learning objectives. Specifics are provided in the [Learning objectives section](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-learning-objectives) of the Learn documentation. 
-
-c.   Prerequisites ([Prerequisites section](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-prerequisites)) 
-
-\2.    **Unit files**: there is a file for each unit. Add a “short” summary and check that the time listed is accurate. The [scaffold manually section](https://review.docs.microsoft.com/en-us/learn-docs/docs/create-scaffold-manual) of the Learn documentation includes samples and explanations. The Learn documentation [How to write good meta descriptions](https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-seo-meta-description?branch=master) provides more information and examples edited descriptions. 
-
-·    **Current meta description:** Consume REST web services in Xamarin apps. (41 characters) 
-
-- **Edited meta description**: In this learning module,     learn how to consume REST web services with HttpClient as part     of Xamarin applications. (111 characters) 
-
-1. **Knowledge checks**: all questions and answers need to     be placed the YAML file structure. 
-
-·    A knowledge check is a two to ten question assessment that measures if the learner has acquired the skills outlined in the learning objectives 
-
-o  A Knowledge Check embedded in another unit file must have 2-3 questions 
-
-o  A Knowledge Check as a standalone unit must have 3-5 questions. 
-
-o  The module summary unit cannot contain a Knowledge Check. 
-
-o  Every module must have at least one Knowledge Check unit – and it must be the penultimate unit in the module. 
-
-·    Write questions that support learning 
-
-o  Write questions as a complete sentence ending with a question mark 
-
-o  All answers in a multiple-choice question should be about the same length, this avoids cueing the learner to select the longest or shortest answer in a group. 
-
-o  Provide three plausible answers and don’t include “all of the above” or “none of the above” as a choice. 
-
-o  Avoid using the words “not” and “except” in questions 
-
-o  If the answers are numeric, list in sorted order. 
-
-o  **Use third person, not “you”** 
-
-o  **Avoid using fictitious people names in questions (raises bugs).** Instead, use a generic title, example, “an administrator”. 
-
-·    Provide a meaningful explanation for both correct and incorrect answers, for example: 
-
-o  More information is provided in the Learn documentation section [How to write knowledge checks](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-knowledge-check) 
-
- 
-
-**Markdown code sample to model** 
-
-Most knowledge check information goes in the YAML file. For the Markdown file simply add the following. 
-
-Choose the best response for each of the questions below. Then select “Check your answers.”  
-
-**Knowledge checks in YAML** 
-
-The code “scaffolding” is provided for you in the Knowledge Check YAML file in green text. You will need to add all ToDo as well as the questions and answers (true and false versions) as in the screenshot below. 
-
-![img](file:///C:/Users/Karin/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
-
-
+> For more detailed information about staging and pushing changes, please refer to [Send (push) files: Stage, commit and push to remote repo](https://waypointventures.github.io/docs/branches/push-files.html)
