@@ -36,9 +36,4 @@ This guide focuses on Phase 3 [Design]({{site.baseurl}}/project-info/the-design-
 
 >**Note:** This image provides a high-level overview of the module-creation process. For detailed information and activities, please refer to your project schedule and ask your PjM more information.
 
-Here is another graphic to illustrate the lifecycle of the Design and then the Module.
-
-![Design and module documents' lifecycle](../assets/images/module-lifecycle.png)
-
-
 {% include paginator.html %}
