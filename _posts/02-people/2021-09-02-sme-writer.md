@@ -16,7 +16,7 @@ This page is a high-level look at the responsibilities and tasks of the SME Writ
 
 As a SME Writer (SME), you are expected to perform certain tasks which are outlined here. For clarification or questions, please ask your Project Manager (PjM).
 
-### Set up your environment
+### Set up your computer
 
 Be sure your computer has the necessary programs installed with the suggested extensions. 
 
@@ -84,6 +84,7 @@ Here are a few main points:
 - Write knowledge check questions that reflect the “takeaway” learning from the module. The questions must follow the guidance in <a href="https://review.docs.microsoft.com/help/learn/unit-add-a-knowledge-check?branch=main" target="_blank">Add a knowledge check to a unit ![external link](../assets/images/extlink.png)</a>.
 - Write exercises using the appropriate environment. For example, bring your own subscription (BYOS) or a Microsoft-provided Azure sandbox.
   - Ensure that the environment you are using for exercise development is the same (or almost the same) as the environment that students will use to perform the exercise(s). In the case of BYOS, this includes creating a document based on Microsoft Marketplace with instructions to what services are required for the exercise.
+  - If you need to modify the course virtual environment to accommodate the exercises you write, be sure to communicate the modifications to the person(s) at Waypoint responsible for creating the environment.
 - Work with Waypoint’s functional Test team to ensure all exercises meet the expected outcomes.
 - Make sure the learning content unit preceding an exercise unit gives the information needed to complete the exercise.
 - Make sure that exercise units are not sequential, that is, exercise units should be separated by a learning content unit.
