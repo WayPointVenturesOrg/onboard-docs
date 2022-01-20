@@ -32,6 +32,9 @@ Here are some additional resources to help you learn about creating microlearnin
 ### Writing resources
 
 - <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>
+
+    >**Tip:**  Download the PDF version of the [**Microsoft Learn Contributor Guide**](../assets/MS_Learn_Contributor_Guide.pdf) if you can't access the online guide using links on this and other pages. This is usually caused  because of outdated or missing v-dash credentials.
+
 - <a href="https://review.docs.microsoft.com/en-us/help/learn/id-guidance?branch=master" target="_blank">Authoring guidelines ![external link](../assets/images/extlink.png)</a>
 - <a href="https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=28939" target="_blank">Microsoft Writing Style Guide, Top 10 tips for Microsoft style and voice ![external link](../assets/images/extlink.png)</a>
 
