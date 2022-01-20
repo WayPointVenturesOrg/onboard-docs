@@ -22,7 +22,7 @@ Here are links to the templates we use for Design docs (which become Module docs
  - [Microlearning combined template - supplementary material](https://waypointventures.sharepoint.com/:w:/r/sites/Home/Waypoint%20Documents/Microlearning%20combined%20template%20-%20supplementary%20material.dotx?d=wae57aa6a25614bbb8d063519acfcc1f4&csf=1&web=1&e=MwyCu6) (used after the design phase)
 
 
->**Note** If you prefer to access this and other files in a library, visit [this library ](https://waypointventures.sharepoint.com/sites/Home/Waypoint%20Documents/Forms/AllItems.aspx) and set the view to Instructional Design.
+>**Note:** If you prefer to access this and other files in a library, visit [this library ](https://waypointventures.sharepoint.com/sites/Home/Waypoint%20Documents/Forms/AllItems.aspx) and set the view to Instructional Design.
 
 
 ## Additional Resources
