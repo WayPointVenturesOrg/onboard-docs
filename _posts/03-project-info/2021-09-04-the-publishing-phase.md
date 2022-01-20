@@ -13,7 +13,7 @@ video_url: "none"
 
 Content must meet the <a href="https://review.docs.microsoft.com/help/contribute/contribute-how-to-write-pull-request-quality-criteria?toc=/help/learn/toc.json&bc=/help/learn/breadcrumb/toc.json&branch=main" target="_blank">PR (Pull request) quality criteria ![external link](../assets/images/extlink.png)</a> in the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>.
 
->**Tip:**  Download the PDF version of the [**Microsoft Learn Contributor Guide**](../assets/MS_Learn_Contributor_Guide.pdf) if you can't access the online guide using links on this and other pages. This is usually caused  because of outdated or missing v-dash credentials.
+>**Tip:**  Download the [PDF version of the **Microsoft Learn Contributor Guide**](../assets/MS_Learn_Contributor_Guide.pdf) if you can't access the online guide using links on this and other pages. This is usually caused  because of outdated or missing v-dash credentials.
 
 ## Hand off to PjM
 

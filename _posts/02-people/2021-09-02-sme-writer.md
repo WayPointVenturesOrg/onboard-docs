@@ -12,7 +12,7 @@ position-in-category: 2
 
 This page is a high-level look at the responsibilities and tasks of the SME Writer (SME) role.
 
->**Tip:**  Download the PDF version of the [**Microsoft Learn Contributor Guide**](../assets/MS_Learn_Contributor_Guide.pdf) if you can't access the online guide using links on this and other pages. This is usually caused  because of outdated or missing v-dash credentials.
+>**Tip:**  Download the [PDF version of the **Microsoft Learn Contributor Guide**](../assets/MS_Learn_Contributor_Guide.pdf) if you can't access the online guide using links on this and other pages. This is usually caused  because of outdated or missing v-dash credentials.
 
 ## SME Writer responsibilities
 
