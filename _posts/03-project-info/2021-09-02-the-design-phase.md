@@ -41,6 +41,8 @@ An approved, detailed Microsoft Word template will be provided to SMEs for use i
 
 The template also contains comments that’ll help guide SMEs as they develop microlearning content, particularly with respect to adding the correct content in the proper format. It also contains links to pertinent articles about development and other topics in the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>.
 
+>**Tip:**  Download the [PDF version of the **Microsoft Learn Contributor Guide**](../assets/MS_Learn_Contributor_Guide.pdf) if you can't access the online guide using links on this and other pages. This is usually caused  because of outdated or missing v-dash credentials.
+
 >**Important!** A module’s design *must adhere* to the guidance from the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. All SMEs and Microlearning Specialists must be familiar with the portions of the guide that apply to all content they create and edit. We recommend that you start by reading the content under <a href="https://review.docs.microsoft.com/help/learn/id-guidance?branch=main" target="_blank">Authoring Guidelines ![external link](../assets/images/extlink.png)</a> section.
 
 ## Module design reviews

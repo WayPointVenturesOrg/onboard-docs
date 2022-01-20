@@ -75,7 +75,7 @@ To insert a graphic in markdown, use:
 
 \:::image type="content" source="../media/image.png" alt-text="Alt text here." border="false":::
 
->**Note**: Screenshots require a border, graphics do not. The border property (border="\<true/false\>") defaults to true (meaning there is a border by default), so you don't need to specify it explicitly for screenshots. Use the border property set to "false" for graphics. 
+>**Note:** Screenshots require a border, graphics do not. The border property (border="\<true/false\>") defaults to true (meaning there is a border by default), so you don't need to specify it explicitly for screenshots. Use the border property set to "false" for graphics. 
 
 >**Warning:** If you copy and paste from Word or other sources, you run the risk of including “curly” quotes, known as typographer quotes. Typing quote marks directly in a markdown file in Visual Studio Code (VSC) or GitHub will insert the correct straight quotes. 
 
@@ -121,7 +121,7 @@ In markdown:
 
 - Don’t use abbreviations in links. This can affect Acrolinx scores that result from automated build testing.
 
-    >**Note**: A file must achieve a minimum of an 80 Acrolinx score to publish, per the Learn platform. Waypoint’s mandate is that we’d like all files to achieve Acrolinx scores of as close to 100 as possible.
+    >**Note:** A file must achieve a minimum of an 80 Acrolinx score to publish, per the Learn platform. Waypoint’s mandate is that we’d like all files to achieve Acrolinx scores of as close to 100 as possible.
 
 - To open a link in a new tab, add **?azure-portal=true** at the end of the URL. Note that this is case-sensitive. For example: https://docs.microsoft.com/learn/paths/explore-microsoft-azure-cloud-concepts?azure-portal=true 
 - If the link contains localization, remove the **en-us**. For example, change: https://review.docs.microsoft.com/help/learn/ to https://review.docs.microsoft.com/help/learn/ 

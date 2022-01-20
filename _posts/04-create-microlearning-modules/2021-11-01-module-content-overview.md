@@ -13,6 +13,8 @@ video_url: "none"
 
 This documentation is intended to give you a high-level understanding of how microlearning courses are different than ILT or other types of courses you’ve worked on in the past. It details form factors and guidance taken largely from the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>. For more specific guidance, follow the links throughout this material to reference specific pages from the <a href="https://review.docs.microsoft.com/help/learn/?branch=main" target="_blank">Microsoft Learn Contributor Guide ![external link](../assets/images/extlink.png)</a>.
 
+>**Tip:**  Download the [PDF version of the **Microsoft Learn Contributor Guide**](../assets/MS_Learn_Contributor_Guide.pdf) if you can't access the online guide using links on this and other pages. This is usually caused  because of outdated or missing v-dash credentials.
+
 This page contains:
 
 - <a href="#info">General module information</a>
