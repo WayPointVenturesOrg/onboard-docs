@@ -1,4 +1,4 @@
-# Welcome to Waypoint's onboarding documentation
+# Welcome to Waypoint's Microsoft microlearning onboarding documentation
 
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
